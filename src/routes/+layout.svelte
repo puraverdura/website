@@ -1,0 +1,84 @@
+<script lang="ts">
+	import Header from "$lib/components/Header.svelte";
+	import NavigationMenu from "$lib/components/NavigationMenu.svelte";
+	import { onMount } from "svelte";
+	import "../app.css";
+	let { children } = $props();
+
+	let menuOpen = $state(false);
+
+	onMount(() => {
+		console.log("layout mounted");
+	});
+</script>
+
+<div class="flex flex-col min-h-screen {menuOpen ? 'overflow-hidden' : ''}">
+	<!-- Header -->
+	<Header
+		menuOpen={false}
+		toggleMenu={() => {
+			console.log("toggle menu");
+			menuOpen = !menuOpen;
+		}}
+	/>
+
+	<!-- Page Content -->
+	<main class="grow-1 mt-[36px]">
+		{@render children?.()}
+	</main>
+
+	<!-- Footer -->
+	<footer class="mt-[110px]">
+		<img src="/Footer_illu.png" alt="logo" class="w-max" />
+		<div
+			class="bg-footer-100 flex flex-wrap justify-between md:justify-center pt-11 pb-16 px-[36px] md:px-0 gap-x-[40px] md:gap-x-24 gap-y-[20px]"
+		>
+			<div>
+				<p class="font-bold !text-sm">Kontakt</p>
+				<p class="!text-sm">
+					Genossenschaft Pura Verdura <br />
+					Drusbergstrasse 113 <br />
+					Postfach <br />
+					8032 Zürich <br />
+					info@puraverdura.ch <br />
+				</p>
+			</div>
+			<div>
+				<p class="!text-sm">Folge uns auf Social Media</p>
+				<div class="flex gap-x-[13px]">
+					<a href="https://www.instagram.com/pura__verdura/">
+						<img
+							src="/Insta_Icon_Grey.png"
+							alt="Instagram"
+							class="h-[28px]"
+						/>
+					</a>
+					<a href="https://www.facebook.com/puraverdura.ch">
+						<img
+							src="/Facebook_Icon_Grey.png"
+							alt="Facebook"
+							class="h-[28px]"
+						/>
+					</a>
+				</div>
+			</div>
+			<div class="flex flex-col !text-sm">
+				<a class="!font-normal !text-text-100" href="/impressum"
+					>Impressum »</a
+				>
+				<a class="!font-normal !text-text-100" href="/datenschutz"
+					>Datenschutz »</a
+				>
+			</div>
+		</div>
+	</footer>
+
+	{#if menuOpen}
+		<NavigationMenu
+			toggleMenu={() => {
+				console.log("toggle menu");
+				menuOpen = !menuOpen;
+			}}
+		/>
+	{/if}
+</div>
