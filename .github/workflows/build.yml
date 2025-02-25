@@ -34,7 +34,11 @@ jobs:
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git checkout --orphan build
           git rm -rf .
+
+          echo ".svelte-kit/" >> .gitignore
+          echo "node_modules/" > .gitignore
+          
           mv build/* .
-          git add build/*
+          git add .
           git commit -m "Update built files"
           git push --force origin build
