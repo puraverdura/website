@@ -6,7 +6,7 @@ on:
       - main
 
 permissions:
-  contents: write‡
+  contents: write
 
 jobs:
   build:
