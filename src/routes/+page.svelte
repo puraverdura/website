@@ -1,11 +1,22 @@
-<script>
+<script lang="ts">
 	import WTeaser from "$lib/components/WTeaser.svelte";
 	import DoubleArrowDown from "$lib/icons/DoubleArrowDown.svelte";
+
+	//@ts-ignore
+	import emblaCarouselSvelte from "embla-carousel-svelte";
+
+	let emblaApi: any;
+
+	function onInit(event: CustomEvent) {
+		emblaApi = event.detail;
+	}
+
+	let options = { loop: true };
 </script>
 
 <div class="mx-[36px] lg:mx-[72px] xl:mx-[108px]">
 	<div
-		class="scroller flex flex-row-reverse border-b-primary-100 border-b-[25px] h-[200px] sm:h-[300px] xl:h-[400px]"
+		class="scroller flex flex-row-reverse border-b-primary-100 border-b-[18px] md:border-b-[25px] h-[200px] sm:h-[300px] xl:h-[400px]"
 	>
 		<a
 			href="https://login.puraverdura.ch/my/signup/"
@@ -18,20 +29,26 @@
 			/>
 		</a>
 	</div>
-	<div class="md:w-[700px] mx-auto mt-[36px] flex justify-center flex-col">
-		<div class="text-center flex flex-col justify-center">
+	<div
+		class="md:w-[700px] mx-auto mt-[36px] md:mt-[56px] flex justify-center flex-col gap-y-[36px] md:gap-y-[56px]"
+	>
+		<div
+			class="text-center flex flex-col justify-center gap-y-[6px] md:gap-y-[12px]"
+		>
 			<h1>Willkommen bei Pura Verdura!</h1>
-			<p class="!text-[27px] !md:text-[32px] !font-heading">
+			<p class="!text-[20px] md:!text-[27px] !font-heading">
 				Wir sind eine solidarische Genossenschaft in Zürich, die
 				Bio-Gemüse lokal, ökologisch und sozial anbaut. Unsere Arbeit
 				verbindet ökologische Landwirtschaft mit sozialer Teilhabe und
 				macht gesunde Ernährung sowie Gemeinschaft erlebbar.
 			</p>
-			<p class="text-[16px] !font-heading mt-[12px]">mehr erfahren</p>
-			<DoubleArrowDown class="mt-[12px] h-[16px]" />
+			<div class="text-center flex flex-col justify-center">
+				<p class="!text-[16px] !font-heading">mehr erfahren</p>
+				<DoubleArrowDown class="h-[16px]" />
+			</div>
 		</div>
 
-		<div class="grid grid-cols-1 sm:grid-cols-2 gap-x-[40px] gap-y-[45px] mt-[20px]">
+		<div class="grid grid-cols-1 sm:grid-cols-2 gap-x-[40px] gap-y-[45px]">
 			<WTeaser
 				title="Was wir tun"
 				text="Unter der Anleitung von Gartenfachkräften bauen wir ganzjährig regionales, ökologisches Gemüse an und verteilen es an unsere Mitglieder. Dabei fördern wir soziale Teilhabe, um gesunde Ernährung und Gemeinschaft nach solidarischen Prinzipien zu stärken."
@@ -75,9 +92,43 @@
 				imageAlt="Warum das eine gute Sache ist"
 			/>
 		</div>
-		<div class="mt-[70px]">
+		<div>
 			<h2>So sieht das aus</h2>
-			Carousel
+			<div class="embla">
+				<div
+					class="embla__viewport"
+					use:emblaCarouselSvelte={{ options }}
+					onemblaInit={onInit}
+				>
+					<div class="embla__container">
+						<div class="embla__slide">
+							<img src="/w_teasers/Illu_Was_wir_tun.png" alt="Slide 1" />
+						</div>
+						<div class="embla__slide">
+							<img src="/w_teasers/Illu_Mitmachen.png" alt="Slide 1" />
+						</div>
+						<div class="embla__slide">
+							<img src="/w_teasers/Illu_Wo_zu_Hause.png" alt="Slide 1" />
+						</div>
+					</div>
+				</div>
+				<button
+					class="embla__prev"
+					onclick={() => {
+						emblaApi?.scrollPrev?.();
+					}}
+				>
+					<img src="/carousel_prev.png" alt="Previous" />
+				</button>
+				<button
+					class="embla__next"
+					onclick={() => {
+						emblaApi?.scrollNext?.();
+					}}
+				>
+					<img src="/carousel_next.png" alt="Next" />
+				</button>
+			</div>
 		</div>
 	</div>
 </div>
@@ -99,5 +150,16 @@
 		to {
 			background-position: +10000% 0;
 		}
+	}
+
+	.embla {
+		overflow: hidden;
+	}
+	.embla__container {
+		display: flex;
+	}
+	.embla__slide {
+		flex: 0 0 100%;
+		min-width: 0;
 	}
 </style>

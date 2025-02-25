@@ -12,7 +12,11 @@
 	});
 </script>
 
-<div class="flex flex-col min-h-screen {menuOpen ? 'overflow-hidden' : ''}">
+<div
+	class="flex flex-col min-h-screen {menuOpen
+		? 'hidden'
+		: ''}"
+>
 	<!-- Header -->
 	<Header
 		menuOpen={false}
@@ -29,7 +33,7 @@
 
 	<!-- Footer -->
 	<footer class="mt-[110px]">
-		<img src="/Footer_illu.png" alt="logo" class="w-max" />
+		<img src="/Footer_illu.png" alt="logo" class="w-[4000px]" />
 		<div
 			class="bg-footer-100 flex flex-wrap justify-between md:justify-center pt-11 pb-16 px-[36px] md:px-0 gap-x-[40px] md:gap-x-24 gap-y-[20px]"
 		>
@@ -72,13 +76,12 @@
 			</div>
 		</div>
 	</footer>
-
-	{#if menuOpen}
-		<NavigationMenu
-			toggleMenu={() => {
-				console.log("toggle menu");
-				menuOpen = !menuOpen;
-			}}
-		/>
-	{/if}
 </div>
+
+<NavigationMenu
+	class={menuOpen ? "fixed " : "hidden"}
+	toggleMenu={() => {
+		console.log("toggle menu");
+		menuOpen = !menuOpen;
+	}}
+/>

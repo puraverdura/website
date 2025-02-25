@@ -1,7 +1,7 @@
 @import 'tailwindcss';
 
 @theme {
-	--font-text: 'Lora, Courier New', sans-serif;
+	--font-text: 'Lora, Courier New', serif;
 	--font-heading: 'Tahoma, Geneva, Verdana', sans-serif;
 
 	--color-primary-100: #007d48;
@@ -11,18 +11,18 @@
 	--color-text-100: #282828;
 }
 
-h1 {
-	@apply font-bold font-text text-[27px] md:text-[32px] text-primary-100
+h1, .h1 {
+	@apply font-bold font-heading text-[28px] md:text-[32px] text-primary-100
 }
 
-h2 {
-	@apply font-bold font-heading text-[18px] md:text-[22px] text-primary-100
+h2, .h2 {
+	@apply font-bold font-heading text-[24px] md:text-[27px] text-primary-100
 }
 
 p {
-	@apply font-text text-[16px] md:text-[18px] text-text-100
+	@apply font-text text-[18px] text-text-100
 }
 
 a {
-	@apply font-bold font-text text-primary-100
+	@apply font-bold font-text text-[18px] text-primary-100
 }

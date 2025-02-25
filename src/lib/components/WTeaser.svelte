@@ -13,8 +13,8 @@
 <div>
 	<img src={imageSrc} alt={imageAlt} />
 	<h2 class="mt-[20px]">{title}</h2>
-	<p>
+	<p class="mt-[6px] md:mt-[12px]">
 		{text}
 	</p>
-	<a href={link}>mehr erfahren »</a>
+	<a class="mt-[6px] md:mt-[12px]" href={link}>mehr erfahren »</a>
 </div>

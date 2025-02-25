@@ -12,7 +12,7 @@
 </script>
 
 <header
-	class={`${className} border-b-primary-100 border-b-[16px] flex sm:gap-x-[71px] md:gap-x-[142px] justify-between md:justify-center items-end pb-[19px] pt-[19px] shadow-2xl bg-white`}
+	class={`${className} border-b-primary-100 border-b-[12px] md:border-b-[16px] flex sm:gap-x-[71px] md:gap-x-[142px] justify-between md:justify-center items-end pb-[19px] pt-[19px] shadow-lg shadow-gray-500 bg-white`}
 >
 	<button onclick={toggleMenu} class="mx-[20px] md:mx-0">
 		{#if !menuOpen}

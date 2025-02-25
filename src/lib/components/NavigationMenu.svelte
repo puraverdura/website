@@ -1,11 +1,13 @@
 <script lang="ts">
+	import { goto } from "$app/navigation";
 	import Header from "./Header.svelte";
 
 	interface Props {
+		class: string;
 		toggleMenu: () => void;
 	}
 
-	let { toggleMenu }: Props = $props();
+	let { class: className, toggleMenu }: Props = $props();
 
 	const menuItems = [
 		{ name: "Home", href: "/" },
@@ -14,21 +16,35 @@
 		{ name: "Wer dahinter steht", href: "/wer-dahinter-steht/" },
 		{ name: "Wie du mitwirken kannst", href: "/wie du mitwirken-kannst/" },
 		{ name: "Was es kostet", href: "/was-es-kostet/" },
-		{ name: "Warum das eine gute Sache ist", href: "/warum-das-eine-gute-sache-ist/" },
+		{
+			name: "Warum das eine gute Sache ist",
+			href: "/warum-das-eine-gute-sache-ist/",
+		},
 		{ name: "Netzwerk", href: "/netzwerk/" },
 		{ name: "Login", href: "https://login.puraverdura.ch/my/signup/" },
 	];
+
+	const clickLink = async (href: string) => {
+		toggleMenu();
+		await goto(href);
+	};
 </script>
 
-<div class="fixed top-0 left-0 bottom-0 right-0 z-99 bg-background-100 verflow-y-scroll overflow-y-auto overscroll-y-contain">
+<div
+	class="{className} top-0 left-0 bottom-0 right-0 z-99 bg-background-100 overflow-y-auto overscroll-y-contain"
+>
 	<Header class="z-100" menuOpen={true} {toggleMenu} />
-	<div class="z-99 pt-[80px] px-[80px]">
+	<div class="z-99 p-[40px] md:p-[80px]">
 		<ul>
-			{#each menuItems as item}
+			{#each menuItems as item, index}
 				<li
-					class="flex justify-center text-center border-b-[1px] border-b-primary-100 font-bold text-[32px] text-primary-100"
+					class="h1 flex justify-center text-center border-b-[1px] border-b-primary-100 font-bold text-[32px] text-primary-100"
 				>
-					<a onclick={() => {toggleMenu}} href={item.href}>{item.name} »</a>
+					<button
+						tabindex={index+1}
+						onclick={() => clickLink(item.href)}
+						>{item.name} »</button
+					>
 				</li>
 			{/each}
 		</ul>
