@@ -35,7 +35,7 @@ jobs:
           git checkout --orphan build
           git rm -rf .
 
-          echo ".svelte-kit/" >> .gitignore
+          echo ".svelte-kit/" > .gitignore
           echo "node_modules/" > .gitignore
           
           mv build/* .
