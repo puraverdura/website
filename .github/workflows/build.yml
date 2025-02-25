@@ -1,0 +1,37 @@
+name: Build and Store SvelteKit App
+
+on:
+    push:
+        branches:
+            - main
+
+jobs:
+    build:
+        runs-on: ubuntu-latest
+
+        steps:
+            - name: Checkout repository
+              uses: actions/checkout@v4
+
+            - name: Setup Node.js
+              uses: actions/setup-node@v4
+              with:
+                  node-version: 18
+                  cache: "npm"
+
+            - name: Install dependencies
+              run: npm ci
+
+            - name: Build SvelteKit App
+              run: npm run build
+
+            - name: Deploy to build branch
+              run: |
+                  git config --global user.name "github-actions[bot]"
+                  git config --global user.email "github-actions[bot]@users.noreply.github.com"
+                  git checkout --orphan build
+                  git rm -rf .
+                  mv build/* .
+                  git add .
+                  git commit -m "Update built files"
+                  git push --force origin build
