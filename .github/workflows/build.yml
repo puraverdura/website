@@ -30,8 +30,8 @@ jobs:
                   git config --global user.name "github-actions[bot]"
                   git config --global user.email "github-actions[bot]@users.noreply.github.com"
                   git checkout --orphan build
-                  git rm -rf .
+                  git rm -rf build/*
                   mv build/* .
-                  git add .
+                  git add build
                   git commit -m "Update built files"
                   git push --force origin build
