@@ -19,10 +19,33 @@ h2, .h2 {
 	@apply font-bold font-heading text-[24px] md:text-[27px] text-primary-100
 }
 
-p {
+h3, .h3 {
+	@apply font-bold font-heading text-[18px] md:text-[20px] text-primary-100
+}
+
+p, ul, li {
 	@apply font-text text-[18px] text-text-100
 }
 
 a {
 	@apply font-bold font-text text-[18px] text-primary-100
+}
+
+.container {
+	@apply md:w-[700px] mx-auto mt-[36px] md:mt-[56px] flex justify-center flex-col gap-y-[36px] md:gap-y-[56px]
+}
+
+.embla {
+	overflow: hidden;
+}
+.embla__container {
+	display: flex;
+}
+.embla__slide {
+	flex: 0 0 100%;
+	min-width: 0;
+}
+
+.grow-on-hover {
+	@apply transition-transform duration-300 hover:scale-110
 }

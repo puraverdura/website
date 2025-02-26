@@ -27,7 +27,7 @@
 	/>
 
 	<!-- Page Content -->
-	<main class="grow-1 mt-[36px]">
+	<main class="grow-1 mt-[36px] mx-[36px] lg:mx-[72px] xl:mx-[108px]">
 		{@render children?.()}
 	</main>
 
@@ -67,10 +67,10 @@
 				</div>
 			</div>
 			<div class="flex flex-col !text-sm">
-				<a class="!font-normal !text-text-100" href="/impressum"
+				<a class="!font-normal !text-text-100 !text-sm" href="/impressum"
 					>Impressum »</a
 				>
-				<a class="!font-normal !text-text-100" href="/datenschutz"
+				<a class="!font-normal !text-text-100 !text-sm" href="/datenschutz"
 					>Datenschutz »</a
 				>
 			</div>

@@ -14,13 +14,13 @@
 	let options = { loop: true };
 </script>
 
-<div class="mx-[36px] lg:mx-[72px] xl:mx-[108px]">
+<div>
 	<div
 		class="scroller flex flex-row-reverse border-b-primary-100 border-b-[18px] md:border-b-[25px] h-[200px] sm:h-[300px] xl:h-[400px]"
 	>
 		<a
 			href="https://login.puraverdura.ch/my/signup/"
-			class="h-fit mt-[20px] mr-[20px] sm:mr-[40px] lg:mr-[100px]"
+			class="h-fit mt-[20px] mr-[20px] sm:mr-[40px] lg:mr-[100px] grow-on-hover"
 		>
 			<img
 				src="/Mach_mit_Button.png"
@@ -30,7 +30,7 @@
 		</a>
 	</div>
 	<div
-		class="md:w-[700px] mx-auto mt-[36px] md:mt-[56px] flex justify-center flex-col gap-y-[36px] md:gap-y-[56px]"
+		class="container"
 	>
 		<div
 			class="text-center flex flex-col justify-center gap-y-[6px] md:gap-y-[12px]"
@@ -80,7 +80,7 @@
 			<WTeaser
 				title="Wieviel es kostet"
 				text="Der Genossenschafts-Anteilschein kostet CHF 500.- und wird beim Austritt zurückerstattet. Die Abo-Preise variieren nach Grösse und Mitarbeit: Je mehr du mithilfst, desto günstiger wird es. Beim Standardabo zahlst du ca. CHF 30.- pro 3 kg Gemüsetasche (Biogemüse)."
-				link="/wieviel-es-kostet/"
+				link="/wieviel-es-dich-kostet/"
 				imageSrc="/w_teasers/Illu_Kosten.png"
 				imageAlt="Wieviel es kostet"
 			/>
