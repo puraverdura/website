@@ -8,8 +8,9 @@ const config = {
 	preprocess: vitePreprocess(),
 
 	kit: {
-		adapter: adapter({trailingSlash: 'always'}),
-	}
+		adapter: adapter({ trailingSlash: "always" }),
+		prerender: { entries: ["/", "/netzwerk/"] },
+	},
 };
 
 export default config;
