@@ -7,44 +7,45 @@ Unsere Partner unterstützen uns bei der Umsetzung unserer Ziele und fördern de
 
 ## Partner in Kreis 7 und 8: 
 
-* Quartierhof Wynegg Zürich 
-* Natur im Siedlungsraum zur Förderung der Biodiversität 
-* Obstverein Zürich Obst-Gnuss 
-* Lebensraum Kulturlandschaft Burghölzli 
-* Sensengruppe 
+* [Quartierhof Wynegg Zürich ](https://www.quartierhof-wynegg.ch/)
+* [Natur im Siedlungsraum zur Förderung der Biodiversität ](http://natur-im-siedlungsraum.ch/)
+* [Obstverein Zürich Obst-Gnuss](http://obst-gnuss.ch/) 
+* [Lebensraum Kulturlandschaft Burghölzli ](https://www.wwf-zh.ch/themen-projekte/biodiversitaet/lebensraum-burghoelzli/)
+* [Sensengruppe](http://sensengruppe.ch/) 
+* [Mühle Tieffenbrunnen](http://muehle-tiefenbrunnen.ch/)
 
 ## Netzwerke
 
-* Kooperationsstelle für solidarische Landwirtschaft in der Schweiz (1nit Übersichtskarte zu Initiativen) 
-* Solawi Stadt Zürich 
-* Ernährungsforum Zürich 
-* Deutschschweizer Verband für regionale Vertragslandwirtschaft: regionalevertragslandwirtschaft.ch 
-* Westschweizer Verband für regionale Vertragslandwirtschaft: fracp.ch 
-* Bewegung der solidarischen Landwirtschaft in Europa 
-* Internationales CSA-Netzwerk 
+* [Kooperationsstelle für solidarische Landwirtschaft in der Schweiz ](http://solawi.ch/)
+* [Solawi Stadt Zürich ](http://solawi-stadt-zuri.ch/)
+* [Ernährungsforum Zürich](http://ernaehrungsforum-zueri.ch/) 
+* [Deutschschweizer Verband für regionale Vertragslandwirtschaft](http://regionalevertragslandwirtschaft.ch/)
+* [Westschweizer Verband für regionale Vertragslandwirtschaft](http://fracp.ch/)
+* [Bewegung der solidarischen Landwirtschaft in Europa ](http://solidarische-landwirtschaft.org/)
+* [Internationales CSA-Netzwerk](http://urgenci.net/)
 
 ## Gemüsekooperativen/-abos in Kanton Zürich & Region:
 
-* Gemüsekooperative ortoloco in Dietikon mit Depots in der Stadt Zürich 
-* Genossenschaft Meh als Gmües in Affoltern 
-* Stadtrandacker (Pflanzplatz Dunkelhölzli in Altstetten und Queerbeete in Seebach)
-* Huebhof in Schwamendingen 
-* Genossenschaft Basimilch in Dietikon mit Depots in der Stadt Zürich 
-* Wädichörbli in Wädenswil 
-* Biocò in Baden 
-* Genossenschaft gmüesabo in Winterthur 
-* StadtLandNetz in Winterthur 
+* [Gemüsekooperative ortoloco in Dietikon mit Depots in der Stadt Zürich](https://ortoloco.ch/) 
+* [Genossenschaft Meh als Gmües in Affoltern](http://mehalsgmues.ch/) 
+* [Stadtrandacker (Pflanzplatz Dunkelhölzli in Altstetten und Queerbeete in Seebach)](http://stadtrandacker.ch/)
+* [Huebhof in Schwamendingen ](http://huebhof.org/)
+* [Genossenschaft Basimilch in Dietikon mit Depots in der Stadt Zürich](http://basimilch.ch/) 
+* [Wädichörbli in Wädenswil ](http://waedichoerbli.ch/)
+* [Biocò in Baden ](http://bioco.ch/)
+* [Genossenschaft gmüesabo in Winterthur](http://gmuesabo.ch/) 
+* [StadtLandNetz in Winterthur](http://stadtlandnetz.ch/) 
 
 ## Einige Gemüsekooperativen/-abos in der Deutschschweiz 
 
-* Nuglargärten Kanton Solothurn, Basel-Stadt, Liestal, Dornach 
-* Agrico Birsmattehof in Therwil 
-* Verein Radiesli in Worb 
-* Verein Soliterre in Bern 
-* Gemüseabo TerreVision in Biel 
+* [Nuglargärten Kanton Solothurn, Basel-Stadt, Liestal, Dornach](http://nuglargaerten.ch/) 
+* [Agrico Birsmattehof in Therwil ](http://birsmattehof.ch/)
+* [Verein Radiesli in Worb](http://radiesli.org/)
+* [Verein Soliterre in Bern](http://soliterre.ch/) 
+* [Gemüseabo TerreVision in Biel](http://terrevision.ch/) 
 
 ## Weitere nützliche Links: 
-* Juntagrico, Verein für Online-Mitarbeitendenplattformen 
-* Grün Stadt Zürich, grüne Dienstabteilung der Stadt Zürich 
-* WWOOF, weltweit freiwillige Landwirtschaftseinsätze auf Bio-Höfen leisten 
-* Biolandhau-Schule Bioschwand 
+* [Juntagrico, Verein für Online-Mitarbeitendenplattformen ](http://juntagrico.org/)
+* [Grün Stadt Zürich, grüne Dienstabteilung der Stadt Zürich ](https://www.stadt-zuerich.ch/ted/de/index/gsz.html)
+* [WWOOF, weltweit freiwillige Landwirtschaftseinsätze auf Bio-Höfen leisten](http://wwoofinternational.org/) 
+* [Biolandhau-Schule Bioschwand](http://bioschwand.ch/) 

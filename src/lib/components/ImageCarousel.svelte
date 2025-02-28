@@ -44,33 +44,50 @@
 	>
 		{currentIndex + 1} / {images.length}
 	</div>
-	<div class="hidden sm:block absolute z-999 inset-y-0 left-0 content-center pl-[20px]">
+	<div
+		class="hidden sm:block absolute z-999 inset-y-0 left-0 content-center pl-[20px]"
+	>
 		<button
+			class="cursor-pointer"
 			onclick={() => {
 				siema?.prev();
 			}}
 		>
-			<img class="w-[35px]" src="/carousel_prev.png" alt="Previous" />
+			<img class="w-[35px]" src="/carousel_prev.svg" alt="Previous" />
 		</button>
 	</div>
 	<div>
 		<div class="siema">
 			{#each images as image}
-				<div>
-					<img src={image.src} alt={image.alt || ""} width="100%" />
-					<p class="bg-text-100 !text-background-100 px-[20px] py-[10px] !text-[16px]">Pura Verdura mit einer Podiumsdiskussion an der Langen Nacht der Philosophie im Sphères in Zürich (November 2023)</p>
+				<div class="overflow-y-hidden">
+					<div class="object-cover">
+						<img
+							class="object-cover aspect-3/2 w-full h-full"
+							src={image.src}
+							alt={image.alt || ""}
+						/>
+					</div>
+					<!--
+					<p
+						class="bg-text-100 !text-background-100 px-[20px] py-[5px] !text-[16px] !mb-0 min-h-[60px]"
+					>
+						{description}
+					</p>-->
 				</div>
 			{/each}
 		</div>
 	</div>
 
-	<div class="hidden sm:block absolute z-999 inset-y-0 right-0 content-center pr-[20px]">
+	<div
+		class="hidden sm:block absolute z-999 inset-y-0 right-0 content-center pr-[20px]"
+	>
 		<button
+			class="cursor-pointer"
 			onclick={() => {
 				siema?.next();
 			}}
 		>
-			<img class="w-[35px]" src="/carousel_next.png" alt="Next" />
+			<img class="w-[35px]" src="/carousel_next.svg" alt="Next" />
 		</button>
 	</div>
 </div>

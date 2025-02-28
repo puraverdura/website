@@ -25,25 +25,28 @@
 		Bio-Gemüse, das vom Acker aus deiner Nähe stammt. Du möchtest Teil von
 		Pura Verdura werden? Mitmachen ist ganz einfach!
 	</p>
+	<div class="content">
+
+	</div>
 	<CallToAction />
 
 	<PageTeasers
 		pages={[
 			{
-				title: "Wie du mit-machen kannst",
+				title: "Wie du mitmachen kannst",
 				link: "/wie-du-mitmachen-kannst/",
 			},
 			{
-				title: "Wie du mit-machen kannst",
-				link: "/wie-du-mitmachen-kannst/",
+				title: "Wer dahinter steht",
+				link: "/wer-dahinter-steht/",
 			},
 			{
-				title: "Wie du mit-machen kannst",
-				link: "/wie-du-mitmachen-kannst/",
+				title: "Wo wir zu Hause sind",
+				link: "/wo-wir-zu-hause-sind/",
 			},
 			{
-				title: "Wie du mit-machen kannst",
-				link: "/wie-du-mitmachen-kannst/",
+				title: "Wieviel es dich kostet",
+				link: "/wieviel-es-dich-kostet/",
 			},
 		]}
 	/>

@@ -33,6 +33,6 @@ Die Betriebsgruppe ist verantwortlich für die Organisation und Durchführung de
 
 ## Die Genossenschaftler:innen
 
-Unsere Genossenschaftler:innen sind das Herzstück von Pura Verdura. Sie arbeiten auf dem Feld mit, helfen bei der Ernte und unterstützen uns bei Veranstaltungen. Wir sind gemeinsam Pura Verdura und schaffen eine starke Gemeinschaft.
+Unsere Genossenschafter:innen sind das Herzstück von Pura Verdura. Sie arbeiten auf dem Feld mit, helfen bei der Ernte und unterstützen uns bei Veranstaltungen. Wir sind gemeinsam Pura Verdura und schaffen eine starke Gemeinschaft.
 
 ![Alt text](/content/Gartenkind.jpg "titel")

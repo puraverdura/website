@@ -73,20 +73,20 @@
 	<PageTeasers
 		pages={[
 			{
-				title: "Wie du mit-machen kannst",
+				title: "Wieviel es dich kostet",
+				link: "/wieviel-es-dich-kostet/",
+			},
+			{
+				title: "Wer dahinter steht",
 				link: "/wie-du-mitmachen-kannst/",
 			},
 			{
-				title: "Wie du mit-machen kannst",
-				link: "/wie-du-mitmachen-kannst/",
+				title: "Wo wir zu Hause sind",
+				link: "/wo-wir-zu-hause-sind/",
 			},
 			{
-				title: "Wie du mit-machen kannst",
-				link: "/wie-du-mitmachen-kannst/",
-			},
-			{
-				title: "Wie du mit-machen kannst",
-				link: "/wie-du-mitmachen-kannst/",
+				title: "Warum das eine gute Sache ist",
+				link: "/warum-das-eine-gute-sache-ist/",
 			},
 		]}
 	/>

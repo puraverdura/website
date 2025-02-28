@@ -78,11 +78,10 @@
 			<div class="text-center">
 				<p class="font-bold">Kontakt</p>
 				<p>
-					Genossenschaft Pura Verdura <br />
-					Drusbergstrasse 113 <br />
-					Postfach <br />
+					Pura Verdura <br />
+					Postfach 156<br />
 					8032 Zürich <br />
-					info (ät) puraverdura.ch <br />
+					info@puraverdura.ch <br />
 				</p>
 			</div>
 		</div>

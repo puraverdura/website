@@ -60,6 +60,11 @@ a {
 	@apply transition-transform duration-300 hover:scale-110;
 }
 
+.really-break-words {
+	word-break: break-word;
+	overflow-wrap: anywhere;
+}
+
 html {
 	scrollbar-gutter: stable;
 }
@@ -71,30 +76,42 @@ html {
 }
 
 .page-content p,
-.page-content h3,
-.page-content a {
+.page-content a,
+.page-content img,
+.page-content ul {
 	margin-bottom: 15px;
 }
 
 .page-content h1,
-.page-content h2 {
+.page-content h2,
+.page-content h3 {
 	margin-bottom: 3px;
 }
 
 .page-content .page-content-row {
-	margin-bottom: 50px;
+	margin-bottom: 52px;
+}
+
+.page-content .page-content-row:last-child {
+	margin-bottom: 0;
+}
+
+.page-content .video-container {
+	margin-bottom: 15px;
 }
 
 /* md: in tailwind */
 @media (min-width: 768px) {
 	.page-content p,
-	.page-content h3,
-	.page-content a {
+	.page-content a,
+	.page-content img,
+	.page-content ul {
 		margin-bottom: 20px;
 	}
 
 	.page-content h1,
-	.page-content h2 {
+	.page-content h2,
+	.page-content h3 {
 		margin-bottom: 3px;
 	}
 
@@ -104,6 +121,10 @@ html {
 
 	.page-content .page-content-row {
 		margin-bottom: 70px;
+	}
+
+	.page-content .video-container {
+		margin-bottom: 20px;
 	}
 }
 
@@ -122,4 +143,11 @@ html {
 	width: 100%;
 	height: 100%;
 	max-width: 100%;
+}
+
+/* --- Carousel --- */
+.siema {
+	overflow-y: hidden;
+	max-height: 500px;
+
 }

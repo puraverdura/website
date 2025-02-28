@@ -29,97 +29,112 @@
 			weiteren Mitgliedern, die sich um Finanzen, Kommunikation und andere
 			organisatorische Aufgaben kümmern.
 		</p>
+		<img
+			src="/content/Betriebsgruppe_Pura_Verdura_2024.png"
+			alt="Die Betriebsgruppe"
+		/>
 	</div>
 	<div class="page-content-row">
 		<h2>Teammitglieder</h2>
+		<h3>Noe (Gartenteam)</h3>
 		<p>
-			<strong>Noe (Gartenteam)</strong> begeistert sich für solidarische Landwirtschaft
-			und die abwechslungsreiche Arbeit auf dem Acker. Nach einem Praktikum
-			bei der Genossenschaft «meh als Gmües» arbeitet er jetzt bei Pura Verdura
-			als Gartenfachkraft auf dem Feld und in den Gewächshäusern, um sein Wissen
-			im Bio-Gemüseanbau zu erweitern.
+			Noe begeistert sich für solidarische Landwirtschaft und die
+			abwechslungsreiche Arbeit auf dem Acker. Nach einem Praktikum bei
+			der Genossenschaft «meh als Gmües» arbeitet er jetzt bei Pura
+			Verdura als Gartenfachkraft auf dem Feld und in den Gewächshäusern,
+			um sein Wissen im Bio-Gemüseanbau zu erweitern.
 		</p>
+		<h3>Rose (Gartenteam)</h3>
 		<p>
-			<strong>Rose (Gartenteam)</strong> ist Gemüsegärtnerin und Gründungsmitglied
-			des Kollektivs F.A.M.E. (Selbstorganisierte Ausbildung im ökologischen
-			Gemüsebau). Ihre Erfahrung sammelte sie auf den Bio-Betrieben Rotenbirben,
-			Bioco und Ortoloco. Sie schätzt Teamarbeit und den Anbau vielfältiger
+			Rose ist Gemüsegärtnerin und Gründungsmitglied des Kollektivs
+			F.A.M.E. (Selbstorganisierte Ausbildung im ökologischen Gemüsebau).
+			Ihre Erfahrung sammelte sie auf den Bio-Betrieben Rotenbirben, Bioco
+			und Ortoloco. Sie schätzt Teamarbeit und den Anbau vielfältiger
 			Gemüsesorten auf lebendigem Boden.
 		</p>
+		<h3>Silvia (Gartenteam)</h3>
 		<p>
-			<strong>Silvia (Gartenteam)</strong> hat in Zürich Agrarwissenschaften
-			studiert und zwei Praktika im Bereich kleinräumigen Gemüsebau absolviert.
-			Jetzt arbeitet sie als Gemüsegärtnerin bei Pura Verdura und pflegt aus
-			Leidenschaft einige Bienenvölker im Tessin.
+			Silvia hat in Zürich Agrarwissenschaften studiert und zwei Praktika
+			im Bereich kleinräumigen Gemüsebau absolviert. Jetzt arbeitet sie
+			als Gemüsegärtnerin bei Pura Verdura und pflegt aus Leidenschaft
+			einige Bienenvölker im Tessin.
 		</p>
+		<h3>Cristiana (Mitgliederverwaltung)</h3>
 		<p>
-			<strong>Cristiana (Mitgliederverwaltung)</strong> Cristiana (Mitgliederverwaltung)
-			schätzt das Gesamtkonzept der solidarischen Landwirtschaft – vom nachhaltigen
-			Anbau bis zum frischen Gemüse. Nach ihrem Studium und Jahren in der Medienwelt
-			gründete sie ein Unternehmen zur Kreislaufwirtschaft im Konsumgüterbereich.
-			Sie liebt Diskussionen über Politik und kulinarische Experimente.
+			Cristiana schätzt das Gesamtkonzept der solidarischen Landwirtschaft
+			– vom nachhaltigen Anbau bis zum frischen Gemüse. Nach ihrem Studium
+			und Jahren in der Medienwelt gründete sie ein Unternehmen zur
+			Kreislaufwirtschaft im Konsumgüterbereich. Sie liebt Diskussionen
+			über Politik und kulinarische Experimente.
 		</p>
+		<h3>Christine (Mitgliederverwaltung)</h3>
 		<p>
-			<strong>Christine (Mitgliederverwaltung)</strong> Nach langer IT-Karriere
-			suchte sie nach der Pensionierung eine neue Aufgabe. Bei Pura Verdura
-			fand sie im gemeinschaftlichen, biologischen Gemüseanbau ihre Erfüllung.
-			Sie interessiert sich für gesunde Ernährung, deren Einfluss auf chronische
-			Krankheiten und sammelt Kochrezepte. Bücher und die Natur liebt sie ebenfalls.
+			Nach langer IT-Karriere suchte Christine nach der Pensionierung eine
+			neue Aufgabe. Bei Pura Verdura fand sie im gemeinschaftlichen,
+			biologischen Gemüseanbau ihre Erfüllung. Sie interessiert sich für
+			gesunde Ernährung, deren Einfluss auf chronische Krankheiten und
+			sammelt Kochrezepte. Bücher und die Natur liebt sie ebenfalls.
 		</p>
+		<h3>Irina (Finanzen)</h3>
 		<p>
-			<strong>Irina (Finanzen)</strong>, ausgebildete Ökonomin und
-			angehende Coach, liebt die Natur als Ausgleich zum Bürojob. Ob als
-			Berggängerin, SAC-Tourenleiterin oder beim Segeln. Seit der Geburt
-			ihrer Töchter ist frisches, lokales Gemüse essenziell. Die
-			solidarische Landwirtschaft von Pura Verdura begeistert sie durch
-			bewussten Ressourcen- und Konsumumgang.
+			Irina ist ausgebildete Ökonomin und angehende Coach, liebt die Natur
+			als Ausgleich zum Bürojob. Ob als Berggängerin, SAC-Tourenleiterin
+			oder beim Segeln. Seit der Geburt ihrer Töchter ist frisches,
+			lokales Gemüse essenziell. Die solidarische Landwirtschaft von Pura
+			Verdura begeistert sie durch bewussten Ressourcen- und Konsumumgang.
 		</p>
+		<h3>Liv (Buchhaltung)</h3>
 		<p>
-			<strong>Liv (Buchhaltung)</strong> ist Vegetarierin, lebt seit 20 Jahren
-			in einer WG in Zürich und hat 2021 die Weiterbildung zur Sachbearbeiterin
-			Buchhaltung abgeschlossen. Nachts arbeitet sie als Supervisorin Sicherheit
-			am Flughafen Zürich, tagsüber widmet sie sich ihrer Leidenschaft für
+			Liv ist Vegetarierin, lebt seit 20 Jahren in einer WG in Zürich und
+			hat 2021 die Weiterbildung zur Sachbearbeiterin Buchhaltung
+			abgeschlossen. Nachts arbeitet sie als Supervisorin Sicherheit am
+			Flughafen Zürich, tagsüber widmet sie sich ihrer Leidenschaft für
 			Hundesport und geniesst ihren schönen Garten.
 		</p>
+		<h3>Tanja (Kommunikation)</h3>
 		<p>
-			<strong>Tanja (Kommunikation)</strong> kommt ursprünglich aus Basel,
-			studierte Wirtschaft und Marketing in Basel und St. Gallen. Seit 2018
-			lebt sie in Zürich und arbeitet im Marketing bei Migros. Sie liebt Wandern,
-			Yoga, Konzerte und Kochen. Frisches, lokales Gemüse ist ihr wichtig.
-			Die solidarische Landwirtschaft von Pura Verdura begeistert sie durch
+			Tanja kommt ursprünglich aus Basel, studierte Wirtschaft und
+			Marketing in Basel und St. Gallen. Seit 2018 lebt sie in Zürich und
+			arbeitet im Marketing bei Migros. Sie liebt Wandern, Yoga, Konzerte
+			und Kochen. Frisches, lokales Gemüse ist ihr wichtig. Die
+			solidarische Landwirtschaft von Pura Verdura begeistert sie durch
 			ihren Beitrag zu nachhaltigem Konsum.
 		</p>
+		<h3>Isa (Kommunikation)</h3>
 		<p>
-			<strong>Isa (Kommunikation)</strong> studierte Wirtschaft mit Fokus auf
-			Ethik und Sustainable Leadership in Milano und Frankfurt. Seit 2012 lebt
-			sie in der Schweiz und arbeitet im Sales &amp; Marketing. Sie besuchte
-			Kurse in Naturheilkunde. Isa liebt die Natur und kocht gerne mit saisonalem
-			Biogemüse. Nach Jahren als Mitglied bei Pura Verdura leitet sie nun mit
-			Tanja das Ressort Kommunikation.
+			Isa studierte Wirtschaft mit Fokus auf Ethik und Sustainable
+			Leadership in Milano und Frankfurt. Seit 2012 lebt sie in der
+			Schweiz und arbeitet im Sales &amp; Marketing. Sie besuchte Kurse in
+			Naturheilkunde. Isa liebt die Natur und kocht gerne mit saisonalem
+			Biogemüse. Nach Jahren als Mitglied bei Pura Verdura leitet sie nun
+			mit Tanja das Ressort Kommunikation.
 		</p>
+		<h3>Harry (Aussendepartement)</h3>
 		<p>
-			<strong>Harry (Aussendepartement)</strong> arbeitet im Umweltmanagement
-			und liebt gutes Essen. Für ihn ist die solidarische Landwirtschaft das
-			perfekte Zusammenspiel von saisonaler, regionaler und ökologischer Ernährung.
-			Als aktiver Triathlet benötigt er auch eine ganze Menge davon.
+			Harry arbeitet im Umweltmanagement und liebt gutes Essen. Für ihn
+			ist die solidarische Landwirtschaft das perfekte Zusammenspiel von
+			saisonaler, regionaler und ökologischer Ernährung. Als aktiver
+			Triathlet benötigt er auch eine ganze Menge davon.
 		</p>
 	</div>
 	<div class="page-content-row">
-		<h2>Die Genossenschaftler:innen</h2>
+		<h2>Die Genossenschafter:innen</h2>
 		<p>
-			Unsere Genossenschaftler:innen sind das Herzstück von Pura Verdura.
+			Unsere Genossenschafter:innen sind das Herzstück von Pura Verdura.
 			Sie arbeiten auf dem Feld mit, helfen bei der Ernte und unterstützen
 			uns bei Veranstaltungen. Wir sind gemeinsam Pura Verdura und
 			schaffen eine starke Gemeinschaft.
 		</p>
 		<ImageCarousel
 			images={[
-				{ src: "/content/Gartenkind.jpg", alt: "Bild 1" },
-				{ src: "/w_teasers/Illu_Kosten.png", alt: "Bild 2" },
-				{ src: "/w_teasers/Illu_Mitmachen.png", alt: "Bild 3" },
+				{ src: "/content/Gartenkind.jpg", alt: "Mitglieder auf dem Feld mit verschiedenem Gemüse in den Händen" },
+				{ src: "/content/Konzert_4.JPG", alt: "Mitglied spielt auf Instrument and Ackerfest" },
+				{ src: "/content/IMG_1444.JPG", alt: "Mitglieder auf dem Feld am Arbeiten" },
+				{ src: "/content/IMG_1037.JPG", alt: "Mitglieder auf dem Feld am Arbeiten" },
+				{ src: "/content/IMG_8786.jpeg", alt: "Ackerfest: Mitglieder sitzen an Tischen neben dem Feld" },
 				{
-					src: "/w_teasers/Illu_Wer_steht_dahinter.png",
-					alt: "Bild 4",
+					src: "/content/GV1.jpg",
+					alt: "Wahl der Betriebsgruppe and der GV",
 				},
 			]}
 		/>
@@ -133,16 +148,16 @@
 				link: "/wie-du-mitmachen-kannst/",
 			},
 			{
-				title: "Wie du mit-machen kannst",
-				link: "/wie-du-mitmachen-kannst/",
+				title: "Was wir tun",
+				link: "/wer-dahinter-steht/",
 			},
 			{
-				title: "Wie du mit-machen kannst",
-				link: "/wie-du-mitmachen-kannst/",
+				title: "Wo wir zu Hause sind",
+				link: "/wo-wir-zu-hause-sind/",
 			},
 			{
-				title: "Wie du mit-machen kannst",
-				link: "/wie-du-mitmachen-kannst/",
+				title: "Warum das eine gute Sache ist",
+				link: "/warum-das-eine-gute-sache-ist/",
 			},
 		]}
 	/>

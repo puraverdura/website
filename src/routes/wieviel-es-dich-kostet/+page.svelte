@@ -7,14 +7,14 @@
 <Container>
 	<h1>Wieviel es Dich kostet</h1>
 	<p>
-		Neben einem Anteilsschein von XX CHF kommen die Kosten für das jährliche
+		Neben einem Anteilsschein von 500 CHF kommen die Kosten für das jährliche
 		Gemüseabo hinzu. Je mehr Du mitarbeitest – sei es auf dem Feld oder beim
 		Abpacken – desto tiefer sind deine Abokosten. Beim Standardabo bezahlst
 		Du rund 30 CHF pro Gemüsetasche (ca. 3 kg Biogemüse). Die Taschen werden
 		wöchentlich und von Januar bis März alle zwei Wochen ausgeliefert. Das
 		sind 42 Taschen pro Jahr.
 	</p>
-	<h2>Unser Abo auf einen Blick (Stand April 2025)</h2>
+	<h2>Unsere Abos auf einen Blick (Stand April 2025)</h2>
 	<h3>Normales Abo</h3>
 	<p>
 		1265.-/Jahr <br />
@@ -61,20 +61,20 @@
 	<PageTeasers
 		pages={[
 			{
-				title: "Wie du mit-machen kannst",
+				title: "Was wir tun",
+				link: "/wer-dahinter-steht/",
+			},
+			{
+				title: "Wer dahinter steht",
 				link: "/wie-du-mitmachen-kannst/",
 			},
 			{
-				title: "Wie du mit-machen kannst",
-				link: "/wie-du-mitmachen-kannst/",
+				title: "Wo wir zu Hause sind",
+				link: "/wo-wir-zu-hause-sind/",
 			},
 			{
-				title: "Wie du mit-machen kannst",
-				link: "/wie-du-mitmachen-kannst/",
-			},
-			{
-				title: "Wie du mit-machen kannst",
-				link: "/wie-du-mitmachen-kannst/",
+				title: "Warum das eine gute Sache ist",
+				link: "/warum-das-eine-gute-sache-ist/",
 			},
 		]}
 	/>
