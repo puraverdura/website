@@ -73,8 +73,8 @@
 	<PageTeasers
 		pages={[
 			{
-				title: "Wieviel es dich kostet",
-				link: "/wieviel-es-dich-kostet/",
+				title: "Wieviel es kostet",
+				link: "/wieviel-es-kostet/",
 			},
 			{
 				title: "Wer dahinter steht",

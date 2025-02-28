@@ -1,5 +1,5 @@
 ---
-title: Wieviel es Dich kostet
+title: Wieviel es kostet
 callToAction: true
 ---
 

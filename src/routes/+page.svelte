@@ -71,7 +71,7 @@
 			<WTeaser
 				title="Wieviel es kostet"
 				text="Der Genossenschafts-Anteilschein kostet CHF 500.- und wird beim Austritt zurückerstattet. Die Abo-Preise variieren nach Grösse und Mitarbeit: Je mehr du mithilfst, desto günstiger wird es. Beim Standardabo zahlst du ca. CHF 30.- pro 3 kg Gemüsetasche (Biogemüse)."
-				link="/wieviel-es-dich-kostet/"
+				link="/wieviel-es-kostet/"
 				imageSrc="/w_teasers/Illu_Kosten.png"
 				imageAlt="Wieviel es kostet"
 			/>

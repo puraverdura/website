@@ -5,7 +5,7 @@
 </script>
 
 <Container>
-	<h1>Wieviel es Dich kostet</h1>
+	<h1>Wieviel es kostet</h1>
 	<p>
 		Neben einem Anteilsschein von 500 CHF kommen die Kosten für das jährliche
 		Gemüseabo hinzu. Je mehr Du mitarbeitest – sei es auf dem Feld oder beim

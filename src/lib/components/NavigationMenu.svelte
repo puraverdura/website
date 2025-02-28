@@ -15,7 +15,7 @@
 		{ name: "Wo wir zu Hause sind", href: "/wo-wir-zu-hause-sind/" },
 		{ name: "Wer dahinter steht", href: "/wer-dahinter-steht/" },
 		{ name: "Wie du mitmachen kannst", href: "/wie-du-mitmachen-kannst/" },
-		{ name: "Wieviel es Dich kostet", href: "/wieviel-es-dich-kostet/" },
+		{ name: "Wieviel es kostet", href: "/wieviel-es-kostet/" },
 		{
 			name: "Warum das eine gute Sache ist",
 			href: "/warum-das-eine-gute-sache-ist/",
