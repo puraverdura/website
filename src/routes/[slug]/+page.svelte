@@ -6,5 +6,6 @@
 </script>
 
 <Container>
+	<h1>{data.attributes.title}</h1>
 	{@html data.body}
 </Container>

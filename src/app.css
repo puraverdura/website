@@ -1,8 +1,8 @@
 @import "tailwindcss";
 
 @theme {
-	--font-text: "Lora, Courier New", serif;
-	--font-heading: "Tahoma, Courier New", sans-serif;
+	--font-text: "Lora", serif;
+	--font-heading: "Tahoma", serif;
 
 	--color-primary-100: #007d48;
 	--color-primary-70: #4ca47f;
@@ -10,6 +10,22 @@
 	--color-footer-100: #e4dbc9;
 	--color-text-100: #282828;
 }
+
+@font-face {
+	font-family: Lora;
+	font-style: normal;
+	font-weight: 200 700;
+	font-display: swap;
+	src: url("/fonts/Lora-Regular.ttf") format("ttf");
+}
+
+@font-face {
+	font-family: Tahoma;
+	font-style: normal;
+	font-weight: 200 700;
+	font-display: swap;
+	src: url("/fonts/Tahoma.ttf") format("ttf");
+  }
 
 h1,
 .h1 {
@@ -40,19 +56,12 @@ a {
 	@apply md:w-[700px] mx-auto mt-[36px] md:mt-[56px] flex justify-center flex-col gap-y-[36px] md:gap-y-[56px];
 }
 
-.embla {
-	overflow: hidden;
-}
-.embla__container {
-	display: flex;
-}
-.embla__slide {
-	flex: 0 0 100%;
-	min-width: 0;
-}
-
 .grow-on-hover {
 	@apply transition-transform duration-300 hover:scale-110;
+}
+
+html {
+	scrollbar-gutter: stable;
 }
 
 /* --- Page Content --- */
@@ -64,12 +73,16 @@ a {
 .page-content p,
 .page-content h3,
 .page-content a {
-	margin-top: 6px;
+	margin-bottom: 15px;
 }
 
 .page-content h1,
 .page-content h2 {
-	margin-top: 36px;
+	margin-bottom: 3px;
+}
+
+.page-content .page-content-row {
+	margin-bottom: 50px;
 }
 
 /* md: in tailwind */
@@ -77,16 +90,20 @@ a {
 	.page-content p,
 	.page-content h3,
 	.page-content a {
-		margin-top: 24px;
+		margin-bottom: 20px;
 	}
 
 	.page-content h1,
 	.page-content h2 {
-		margin-top: 56px;
+		margin-bottom: 3px;
 	}
 
 	.page-content li {
 		margin-left: 10px;
+	}
+
+	.page-content .page-content-row {
+		margin-bottom: 70px;
 	}
 }
 

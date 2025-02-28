@@ -16,20 +16,35 @@
 >
 	<button onclick={toggleMenu} class="mx-[20px] md:mx-0">
 		{#if !menuOpen}
-			<Menu class="h-[27px] stroke-primary-100" />
+			<Menu class="h-[27px] stroke-primary-100 cursor-pointer" />
 		{:else}
 			<Close
-				class="h-[27px] stroke-primary-100 text-primary-100"
+				class="h-[27px] stroke-primary-100 text-primary-100 stroke-[0.25px] cursor-pointer"
 			/>
 		{/if}
 	</button>
 
-	<img src="/Pura_Verdura_Logo_Kopf.svg" alt="logo" class="w-[130px] md:w-[312px]" />
+	<a href="/"
+		><img
+			src="/Pura_Verdura_Logo_Kopf.svg"
+			alt="logo"
+			class="w-[130px] md:w-[312px]"
+		/></a
+	>
+
 	<div class="flex gap-[13px] mx-[20px] md:mx-0 w-min">
-		<a href="https://www.instagram.com/pura__verdura/" class="w-[28px]">
+		<a
+			href="https://www.instagram.com/pura__verdura/"
+			target="_blank"
+			class="w-[28px]"
+		>
 			<img src="/Insta_Icon_Green.png" alt="Instagram" class="h-[28px]" />
 		</a>
-		<a href="https://www.facebook.com/puraverdura.ch" class="w-[28px]">
+		<a
+			href="https://www.facebook.com/puraverdura.ch"
+			target="_blank"
+			class="w-[28px]"
+		>
 			<img
 				src="/Facebook_Icon_Green.png"
 				alt="Facebook"

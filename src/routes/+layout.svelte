@@ -50,14 +50,14 @@
 			<div>
 				<p class="!text-sm">Folge uns auf Social Media</p>
 				<div class="flex gap-x-[13px]">
-					<a href="https://www.instagram.com/pura__verdura/">
+					<a href="https://www.instagram.com/pura__verdura/" target="_blank">
 						<img
 							src="/Insta_Icon_Grey.png"
 							alt="Instagram"
 							class="h-[28px]"
 						/>
 					</a>
-					<a href="https://www.facebook.com/puraverdura.ch">
+					<a href="https://www.facebook.com/puraverdura.ch" target="_blank">
 						<img
 							src="/Facebook_Icon_Grey.png"
 							alt="Facebook"

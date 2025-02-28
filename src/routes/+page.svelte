@@ -29,10 +29,6 @@
 				verbindet ökologische Landwirtschaft mit sozialer Teilhabe und
 				macht gesunde Ernährung sowie Gemeinschaft erlebbar.
 			</p>
-			<div class="text-center flex flex-col justify-center">
-				<p class="!text-[16px] !font-heading">mehr erfahren</p>
-				<DoubleArrowDown class="h-[16px]" />
-			</div>
 		</div>
 
 		<div class="grid grid-cols-1 sm:grid-cols-2 gap-x-[40px] gap-y-[45px]">

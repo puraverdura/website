@@ -25,8 +25,15 @@
 	];
 
 	const clickLink = async (href: string) => {
+		console.log("clickLink", href);
 		toggleMenu();
-		await goto(href);
+
+		if(href.startsWith("http")) {
+			window.location = href;
+			return;
+		} else {
+			await goto(href);
+		}
 	};
 </script>
 
@@ -38,12 +45,13 @@
 		<ul>
 			{#each menuItems as item, index}
 				<li
-					class="h1 flex justify-center text-center border-b-[1px] border-b-primary-100 font-bold text-[32px] text-primary-100"
+					class="h1 flex justify-center text-center border-b-[1px] border-b-primary-100 font-bold text-[32px] text-primary-100 group"
 				>
 					<button
+						class="cursor-pointer"
 						tabindex={index+1}
-						onclick={() => clickLink(item.href)}
-						>{item.name} »</button
+						onclick={() => clickLink(item.href)}>
+						{item.name} »</button
 					>
 				</li>
 			{/each}
