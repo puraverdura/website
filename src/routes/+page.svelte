@@ -1,19 +1,8 @@
 <script lang="ts">
+	import ImageCarousel from "$lib/components/ImageCarousel.svelte";
 	import WTeaser from "$lib/components/WTeaser.svelte";
 	import DoubleArrowDown from "$lib/icons/DoubleArrowDown.svelte";
-
-	//@ts-ignore
-	import emblaCarouselSvelte from "embla-carousel-svelte";
-
-	let emblaApi: any;
-
-	function onInit(event: CustomEvent) {
-		emblaApi = event.detail;
-	}
-
-	let options = { loop: true };
 </script>
-
 <div>
 	<div
 		class="scroller flex flex-row-reverse border-b-primary-100 border-b-[18px] md:border-b-[25px] h-[200px] sm:h-[300px] xl:h-[400px]"
@@ -29,9 +18,7 @@
 			/>
 		</a>
 	</div>
-	<div
-		class="container"
-	>
+	<div class="container">
 		<div
 			class="text-center flex flex-col justify-center gap-y-[6px] md:gap-y-[12px]"
 		>
@@ -94,41 +81,17 @@
 		</div>
 		<div>
 			<h2>So sieht das aus</h2>
-			<div class="embla">
-				<div
-					class="embla__viewport"
-					use:emblaCarouselSvelte={{ options }}
-					onemblaInit={onInit}
-				>
-					<div class="embla__container">
-						<div class="embla__slide">
-							<img src="/w_teasers/Illu_Was_wir_tun.png" alt="Slide 1" />
-						</div>
-						<div class="embla__slide">
-							<img src="/w_teasers/Illu_Mitmachen.png" alt="Slide 1" />
-						</div>
-						<div class="embla__slide">
-							<img src="/w_teasers/Illu_Wo_zu_Hause.png" alt="Slide 1" />
-						</div>
-					</div>
-				</div>
-				<button
-					class="embla__prev"
-					onclick={() => {
-						emblaApi?.scrollPrev?.();
-					}}
-				>
-					<img src="/carousel_prev.png" alt="Previous" />
-				</button>
-				<button
-					class="embla__next"
-					onclick={() => {
-						emblaApi?.scrollNext?.();
-					}}
-				>
-					<img src="/carousel_next.png" alt="Next" />
-				</button>
-			</div>
+			<ImageCarousel
+				images={[
+					{ src: "/w_teasers/Illu_Gute_Sache.png", alt: "Bild 1" },
+					{ src: "/w_teasers/Illu_Kosten.png", alt: "Bild 2" },
+					{ src: "/w_teasers/Illu_Mitmachen.png", alt: "Bild 3" },
+					{
+						src: "/w_teasers/Illu_Wer_steht_dahinter.png",
+						alt: "Bild 4",
+					},
+				]}
+			/>
 		</div>
 	</div>
 </div>
@@ -140,7 +103,7 @@
 		background-size: auto 100%;
 		margin: auto;
 		overflow: hidden;
-		animation: scroll 1600s linear infinite;
+		animation: scroll 1950s linear infinite;
 	}
 
 	@keyframes scroll {
@@ -150,16 +113,5 @@
 		to {
 			background-position: +10000% 0;
 		}
-	}
-
-	.embla {
-		overflow: hidden;
-	}
-	.embla__container {
-		display: flex;
-	}
-	.embla__slide {
-		flex: 0 0 100%;
-		min-width: 0;
 	}
 </style>

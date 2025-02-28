@@ -1,8 +1,8 @@
-@import 'tailwindcss';
+@import "tailwindcss";
 
 @theme {
-	--font-text: 'Lora, Courier New', serif;
-	--font-heading: 'Tahoma, Geneva, Verdana', sans-serif;
+	--font-text: "Lora, Courier New", serif;
+	--font-heading: "Tahoma, Courier New", sans-serif;
 
 	--color-primary-100: #007d48;
 	--color-primary-70: #4ca47f;
@@ -11,28 +11,33 @@
 	--color-text-100: #282828;
 }
 
-h1, .h1 {
-	@apply font-bold font-heading text-[28px] md:text-[32px] text-primary-100
+h1,
+.h1 {
+	@apply font-bold font-heading text-[28px] md:text-[32px] text-primary-100;
 }
 
-h2, .h2 {
-	@apply font-bold font-heading text-[24px] md:text-[27px] text-primary-100
+h2,
+.h2 {
+	@apply font-bold font-heading text-[24px] md:text-[27px] text-primary-100;
 }
 
-h3, .h3 {
-	@apply font-bold font-heading text-[18px] md:text-[20px] text-primary-100
+h3,
+.h3 {
+	@apply font-bold font-heading text-[18px] md:text-[20px] text-primary-100;
 }
 
-p, ul, li {
-	@apply font-text text-[18px] text-text-100
+p,
+ul,
+li {
+	@apply font-text text-[18px] text-text-100;
 }
 
 a {
-	@apply font-bold font-text text-[18px] text-primary-100
+	@apply font-bold font-text text-[18px] text-primary-100;
 }
 
 .container {
-	@apply md:w-[700px] mx-auto mt-[36px] md:mt-[56px] flex justify-center flex-col gap-y-[36px] md:gap-y-[56px]
+	@apply md:w-[700px] mx-auto mt-[36px] md:mt-[56px] flex justify-center flex-col gap-y-[36px] md:gap-y-[56px];
 }
 
 .embla {
@@ -47,5 +52,57 @@ a {
 }
 
 .grow-on-hover {
-	@apply transition-transform duration-300 hover:scale-110
+	@apply transition-transform duration-300 hover:scale-110;
+}
+
+/* --- Page Content --- */
+.page-content li::before {
+	content: "– ";
+	margin-left: 12px;
+}
+
+.page-content p,
+.page-content h3,
+.page-content a {
+	margin-top: 6px;
+}
+
+.page-content h1,
+.page-content h2 {
+	margin-top: 36px;
+}
+
+/* md: in tailwind */
+@media (min-width: 768px) {
+	.page-content p,
+	.page-content h3,
+	.page-content a {
+		margin-top: 24px;
+	}
+
+	.page-content h1,
+	.page-content h2 {
+		margin-top: 56px;
+	}
+
+	.page-content li {
+		margin-left: 10px;
+	}
+}
+
+.page-content .video-container {
+	position: relative;
+	overflow: hidden;
+	height: 0;
+	padding-bottom: 56.25%; /* creates a 16:9 aspect ratio */
+}
+
+.page-content .video-container iframe,
+.page-content .video-container embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	max-width: 100%;
 }

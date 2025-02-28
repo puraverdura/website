@@ -2,6 +2,7 @@ import { readFileSync } from "fs";
 import fm from "front-matter";
 import { marked } from "marked";
 
+// This route is currently only use for /impressum, /datenschutz and /netzwerk
 export const load = async ({ params }) => {
 	const buffer = readFileSync(
 		`./src/content/pages/${params.slug}.md`,
@@ -9,6 +10,7 @@ export const load = async ({ params }) => {
 	);
 	const content = fm(buffer.toString());
 
+	/*
 	const customExtension = {
 		extensions: [
 			{
@@ -37,12 +39,14 @@ export const load = async ({ params }) => {
 		],
 	};
 
-	marked.use(customExtension);
+	marked.use(customExtension);*/
 
+	//const structuredBody = await marked.lexer(content.body);
 	const parsedBody = await marked.parse(content.body);
 
 	return {
 		attributes: content.attributes as Record<string, any>,
+		//structuredBody: structuredBody,
 		body: parsedBody,
 	};
 };

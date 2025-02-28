@@ -5,7 +5,7 @@ callToAction: true
 
 Pura Verdura in 50 Sekunden! Schau dir jetzt das Video an und erfahre mehr über uns!
 
-{{ youtube: 1234 }}
+{{ youtube: 3VsnbtAiMic }}
 
 Pura Verdura ist mehr als nur ein Gemüseabo. Bei Pura Verdura werden Konsument:innen zu Produzent:innen. Um unseren wöchentlichen Ernteanteil zu erhalten, tragen alle Mitglieder aktiv auf dem Acker bei – sei es bei der Ernte, dem Transport, der Kulturpflege oder der Ackerbearbeitung. Diese starke Zusammenarbeit ist das Herzstück von Pura Verdura.
 
