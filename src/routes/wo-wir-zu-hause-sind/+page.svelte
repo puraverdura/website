@@ -5,6 +5,17 @@
 	import PageTeasers from "$lib/components/PageTeasers.svelte";
 </script>
 
+<svelte:head>
+	<title>Wo wir zu Hause sind - Pura Verdura</title>
+	<meta
+		name="description"
+		content="Unsere Gemüsedepots decken die Kreise 1, 7 und 8 ab. Als Mitglied
+			wählst du ein Depot-Standort aus, an dem du wöchentlich das frisch
+			geerntete Gemüse abholst. Unsere beiden Äcker liegen im Kreis 8 oberhalb des Gartenareals
+			Lengg und neben dem Quartierhof Wynegg."
+	/>
+</svelte:head>
+
 <Container>
 	<div class="page-content-row">
 		<h1>Wo wir zu Hause sind</h1>

@@ -4,6 +4,15 @@
 	import PageTeasers from "$lib/components/PageTeasers.svelte";
 </script>
 
+<svelte:head>
+	<title>Netzwerk - Pura Verdura</title>
+	<meta
+		name="description"
+		content="Unsere Partner unterstützen uns bei der Umsetzung unserer Ziele und
+		fördern den Austausch von Wissen und Ressourcen."
+	/>
+</svelte:head>
+
 <Container>
 	<h1>Netzwerk</h1>
 	<p>

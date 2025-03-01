@@ -4,6 +4,17 @@
 	import DoubleArrowDown from "$lib/icons/DoubleArrowDown.svelte";
 </script>
 
+<svelte:head>
+	<title>Pura Verdura</title>
+	<meta
+		name="description"
+		content="Wir sind eine solidarische Genossenschaft in Zürich, die
+				Bio-Gemüse lokal, ökologisch und sozial anbaut. Unsere Arbeit
+				verbindet ökologische Landwirtschaft mit sozialer Teilhabe und
+				macht gesunde Ernährung sowie Gemeinschaft erlebbar."
+	/>
+</svelte:head>
+
 <div>
 	<div
 		class="scroller flex flex-row-reverse border-b-primary-100 border-b-[18px] md:border-b-[25px] h-[200px] sm:h-[300px] xl:h-[400px]"
@@ -79,12 +90,21 @@
 		<div>
 			<h2>So sieht das aus</h2>
 			<ImageCarousel
-			images={[
-				{ src: "/content/Foto_Ruebli.jpg", alt: "Frisch geerntete Karotten. Im hintergrund sind zwei Mitglieder am Ernten" },
-				{ src: "/content/KW_4_Jan 2_22.jpeg", alt: "Verschiedenes Gemüse auf Tisch" },
-				{ src: "/content/IMG_8786.jpeg", alt: "Ackerfest: Mitglieder sitzen an Tischen neben dem Feld" },
-			]}
-		/>
+				images={[
+					{
+						src: "/content/Foto_Ruebli.jpg",
+						alt: "Frisch geerntete Karotten. Im hintergrund sind zwei Mitglieder am Ernten",
+					},
+					{
+						src: "/content/KW_4_Jan 2_22.jpeg",
+						alt: "Verschiedenes Gemüse auf Tisch",
+					},
+					{
+						src: "/content/IMG_8786.jpeg",
+						alt: "Ackerfest: Mitglieder sitzen an Tischen neben dem Feld",
+					},
+				]}
+			/>
 		</div>
 	</div>
 </div>

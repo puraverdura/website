@@ -5,6 +5,15 @@
 	import PageTeasers from "$lib/components/PageTeasers.svelte";
 </script>
 
+<svelte:head>
+	<title>Was wir tun - Pura Verdura</title>
+	<meta
+		name="description"
+		content="Unsere Partner unterstützen uns bei der Umsetzung unserer Ziele und
+		fördern den Austausch von Wissen und Ressourcen."
+	/>
+</svelte:head>
+
 <Container>
 	<div class="page-content-row">
 		<h1>Was wir tun</h1>
@@ -51,9 +60,18 @@
 		<h1>So sieht das aus</h1>
 		<ImageCarousel
 			images={[
-				{ src: "/content/Foto_Ruebli.jpg", alt: "Frisch geerntete Karotten. Im hintergrund sind zwei Mitglieder am Ernten" },
-				{ src: "/content/KW_4_Jan 2_22.jpeg", alt: "Verschiedenes Gemüse auf Tisch" },
-				{ src: "/content/IMG_8786.jpeg", alt: "Ackerfest: Mitglieder sitzen an Tischen neben dem Feld" },
+				{
+					src: "/content/Foto_Ruebli.jpg",
+					alt: "Frisch geerntete Karotten. Im hintergrund sind zwei Mitglieder am Ernten",
+				},
+				{
+					src: "/content/KW_4_Jan 2_22.jpeg",
+					alt: "Verschiedenes Gemüse auf Tisch",
+				},
+				{
+					src: "/content/IMG_8786.jpeg",
+					alt: "Ackerfest: Mitglieder sitzen an Tischen neben dem Feld",
+				},
 			]}
 		/>
 	</div>

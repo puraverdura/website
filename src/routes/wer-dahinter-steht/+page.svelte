@@ -5,6 +5,17 @@
 	import ImageCarousel from "$lib/components/ImageCarousel.svelte";
 </script>
 
+<svelte:head>
+	<title>Wer dahinter steht - Pura Verdura</title>
+	<meta
+		name="description"
+		content="Die Gemüsegenossenschaft Pura Verdura wurde am 26. Oktober 2019
+			gegründet. Wir sind eine vielfältige Gruppe von Menschen, darunter
+			drei erfahrene Gärtner:innen, die Betriebsgruppe sowie die
+			Genossenschafter:innen."
+	/>
+</svelte:head>
+
 <Container>
 	<div class="page-content-row">
 		<h1>Wer dahinter steht</h1>
@@ -127,11 +138,26 @@
 		</p>
 		<ImageCarousel
 			images={[
-				{ src: "/content/Gartenkind.jpg", alt: "Mitglieder auf dem Feld mit verschiedenem Gemüse in den Händen" },
-				{ src: "/content/Konzert_4.JPG", alt: "Mitglied spielt auf Instrument and Ackerfest" },
-				{ src: "/content/IMG_1444.JPG", alt: "Mitglieder auf dem Feld am Arbeiten" },
-				{ src: "/content/IMG_1037.JPG", alt: "Mitglieder auf dem Feld am Arbeiten" },
-				{ src: "/content/IMG_8786.jpeg", alt: "Ackerfest: Mitglieder sitzen an Tischen neben dem Feld" },
+				{
+					src: "/content/Gartenkind.jpg",
+					alt: "Mitglieder auf dem Feld mit verschiedenem Gemüse in den Händen",
+				},
+				{
+					src: "/content/Konzert_4.JPG",
+					alt: "Mitglied spielt auf Instrument and Ackerfest",
+				},
+				{
+					src: "/content/IMG_1444.JPG",
+					alt: "Mitglieder auf dem Feld am Arbeiten",
+				},
+				{
+					src: "/content/IMG_1037.JPG",
+					alt: "Mitglieder auf dem Feld am Arbeiten",
+				},
+				{
+					src: "/content/IMG_8786.jpeg",
+					alt: "Ackerfest: Mitglieder sitzen an Tischen neben dem Feld",
+				},
 				{
 					src: "/content/GV1.jpg",
 					alt: "Wahl der Betriebsgruppe and der GV",
