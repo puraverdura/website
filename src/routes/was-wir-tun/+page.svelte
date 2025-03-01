@@ -120,25 +120,53 @@
 		<CallToAction />
 	</div>
 	<div class="page-content-row">
-		<PageTeasers
-			pages={[
-				{
-					title: "Wie du mitmachen kannst",
-					link: "/wie-du-mitmachen-kannst/",
-				},
-				{
-					title: "Wer dahinter steht",
-					link: "/wer-dahinter-steht/",
-				},
-				{
-					title: "Wo wir zu Hause sind",
-					link: "/wo-wir-zu-hause-sind/",
-				},
-				{
-					title: "Warum das eine gute Sache ist",
-					link: "/warum-das-eine-gute-sache-ist/",
-				},
-			]}
-		/>
+		<ImageCarousel
+				images={[
+					{
+						src: "/content/Foto_Ruebli.jpg",
+						alt: "Frisch geerntete Karotten. Im hintergrund sind zwei Mitglieder am Ernten",
+					},
+					{
+						src: "/content/KW_4_Jan 2_22.jpeg",
+						alt: "Verschiedenes Gemüse auf Tisch",
+					},
+					{
+						src: "/content/IMG_8786.jpeg",
+						alt: "Ackerfest: Mitglieder sitzen an Tischen neben dem Feld",
+					},
+					{
+						src: "/content/Abendstimmung-Bauwagen.jpeg",
+						alt: "Abendstimmung Bauwagen",
+					},
+					{
+						src: "/content/GV1.jpg",
+						alt: "Mitglieder bestätigen die Betriebsgruppe an der GV",
+					},
+					{
+						src: "/content/21-09-17 18-57-53-0322.jpeg",
+						alt: "Acker mit Wegweiser-Schild im Vordergrund auf dem Pura Verdura steht",
+					},
+					{
+						src: "/content/Foto-21-08-20.jpeg",
+						alt: "Verschiedene Tomaten",
+					},
+					{
+						src: "/content/C051B60F-1201-4857-9223-219578F156D2.jpeg",
+						alt: "Abgepackte Gemüsetaschen bereit zur Auslieferung",
+					},
+					{
+						src: "/content/Foto-17-10-20.jpeg",
+						alt: "Mitglieder auf Feld",
+					},
+					{
+						src: "/content/Gartenkind.jpg",
+						alt: "Mitglieder auf dem Feld mit verschiedenem Gemüse in den Händen",
+					},
+					{
+						src: "/content/IMG_1046.jpeg",
+						alt: "Mitglieder auf dem Feld am Arbeiten",
+					},
+				]}
+			/>
 	</div>
 </Container>

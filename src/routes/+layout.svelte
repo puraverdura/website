@@ -38,8 +38,8 @@
 			class="bg-footer-100 flex flex-wrap justify-between md:justify-center pt-11 pb-16 px-[36px] md:px-0 gap-x-[40px] md:gap-x-24 gap-y-[20px]"
 		>
 			<div>
-				<p class="font-bold !text-[16px]">Kontakt</p>
-				<p class="!text-[16px]">
+				<p class="font-bold !text-[16px] !font-heading">Kontakt</p>
+				<p class="!text-[16px] !font-heading">
 					Pura Verdura <br />
 					Postfach 156  <br />
 					8032 Zürich <br />
@@ -47,7 +47,7 @@
 				</p>
 			</div>
 			<div>
-				<p class="!text-[16px] mb-[3px]">Folge uns auf Social Media</p>
+				<p class="!text-[16px] mb-[3px] !font-heading">Folge uns auf Social Media</p>
 				<div class="flex gap-x-[13px] !text-[16px]">
 					<a href="https://www.instagram.com/pura__verdura/" target="_blank">
 						<img
@@ -66,10 +66,10 @@
 				</div>
 			</div>
 			<div class="flex flex-col ">
-				<a class="!font-normal !text-text-100 !text-[16px]" href="/impressum"
+				<a class="!font-normal !text-text-100 !text-[16px] !font-heading" href="/impressum"
 					>Impressum »</a
 				>
-				<a class="!font-normal !text-text-100 !text-[16px]" href="/datenschutz"
+				<a class="!font-normal !text-text-100 !text-[16px] !font-heading" href="/datenschutz"
 					>Datenschutz »</a
 				>
 			</div>

@@ -65,7 +65,7 @@
 		</p>
 		<h2>Du hast noch Fragen? Kontaktiere uns.</h2>
 		<p>
-			Wir stehen dir bei Fragen gerne zu Verfügung. Schreibe uns ein Mail
+			Wir stehen dir bei Fragen gerne zur Verfügung. Schreibe uns ein Mail
 			an: <a href="mailto:miglieder@puraverdura.ch"
 				>miglieder@puraverdura.ch</a
 			>
@@ -79,11 +79,11 @@
 			pages={[
 				{
 					title: "Was wir tun",
-					link: "/wer-dahinter-steht/",
+					link: "/was-wir-tun/",
 				},
 				{
 					title: "Wer dahinter steht",
-					link: "/wie-du-mitmachen-kannst/",
+					link: "/wer-dahinter-steht/",
 				},
 				{
 					title: "Wo wir zu Hause sind",

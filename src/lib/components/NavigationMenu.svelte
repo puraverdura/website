@@ -76,8 +76,8 @@
 		</div>
 		<div class="flex w-[100%] justify-center pt-[30px] text-sm">
 			<div class="text-center">
-				<p class="font-bold">Kontakt</p>
-				<p>
+				<p class="font-bold !font-heading">Kontakt</p>
+				<p class="!font-heading">
 					Pura Verdura <br />
 					Postfach 156<br />
 					8032 Zürich <br />

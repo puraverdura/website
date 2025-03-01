@@ -14,13 +14,12 @@
 </svelte:head>
 
 <Container>
-
 	<h1>Netzwerk</h1>
 	<p>
 		Unsere Partner unterstützen uns bei der Umsetzung unserer Ziele und
 		fördern den Austausch von Wissen und Ressourcen.
 	</p>
-	<h2>Partner in Kreis 7 und 8:</h2>
+	<h3 class="!text-text-100">Partner in Kreis 7 und 8:</h3>
 	<ul>
 		<li>
 			<a href="https://www.quartierhof-wynegg.ch/" target="_blank">
@@ -46,7 +45,7 @@
 			<a href="http://muehle-tiefenbrunnen.ch/" target="_blank">Mühle Tieffenbrunnen »</a>
 		</li>
 	</ul>
-	<h2>Netzwerke</h2>
+	<h3 class="!text-text-100">Netzwerke</h3>
 	<ul>
 		<li>
 			<a href="http://solawi.ch/" target="_blank"
@@ -77,7 +76,7 @@
 		</li>
 		<li><a href="http://urgenci.net/" target="_blank">Internationales CSA-Netzwerk »</a></li>
 	</ul>
-	<h2>Gemüsekooperativen/-abos in Kanton Zürich &amp; Region:</h2>
+	<h3 class="!text-text-100">Gemüsekooperativen/-abos in Kanton Zürich &amp; Region:</h3>
 	<ul>
 		<li>
 			<a href="https://ortoloco.ch/" target="_blank"
@@ -116,7 +115,7 @@
 			<a href="http://stadtlandnetz.ch/" target="_blank">StadtLandNetz in Winterthur »</a>
 		</li>
 	</ul>
-	<h2>Einige Gemüsekooperativen/-abos in der Deutschschweiz »</h2>
+	<h3 class="!text-text-100">Einige Gemüsekooperativen/-abos in der Deutschschweiz</h3>
 	<ul>
 		<li>
 			<a href="http://nuglargaerten.ch/" target="_blank"
@@ -134,7 +133,7 @@
 			<a href="http://terrevision.ch/" target="_blank">Gemüseabo TerreVision in Biel »</a>
 		</li>
 	</ul>
-	<h2>Weitere nützliche Links:</h2>
+	<h3 class="!text-text-100">Weitere nützliche Links:</h3>
 	<ul>
 		<li>
 			<a href="http://juntagrico.org/" target="_blank"

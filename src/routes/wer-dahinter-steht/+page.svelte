@@ -172,12 +172,12 @@
 		<PageTeasers
 			pages={[
 				{
-					title: "Wie du mit-machen kannst",
+					title: "Wie du mitmachen kannst",
 					link: "/wie-du-mitmachen-kannst/",
 				},
 				{
 					title: "Was wir tun",
-					link: "/wer-dahinter-steht/",
+					link: "/was-wir-tun/",
 				},
 				{
 					title: "Wo wir zu Hause sind",

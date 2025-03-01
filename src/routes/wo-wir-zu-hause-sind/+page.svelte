@@ -82,11 +82,11 @@
 			pages={[
 				{
 					title: "Was wir tun",
-					link: "/wer-dahinter-steht/",
+					link: "/was-wir-tun/",
 				},
 				{
 					title: "Wer dahinter steht",
-					link: "/wie-du-mitmachen-kannst/",
+					link: "/wer-dahinter-steht/",
 				},
 				{
 					title: "Wie du mitmachen kannst",

@@ -105,7 +105,7 @@
 				},
 				{
 					title: "Wer dahinter steht",
-					link: "/wie-du-mitmachen-kannst/",
+					link: "/wer-dahinter-steht/",
 				},
 				{
 					title: "Wo wir zu Hause sind",
