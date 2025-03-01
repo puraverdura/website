@@ -33,7 +33,7 @@
 
 	<!-- Footer -->
 	<footer class=" mt-[55px] md:mt-[110px]">
-		<img src="/Footer_illu.png" alt="logo" class="w-[4000px]" />
+		<img src="/Footer_illu.png" alt="logo" class="w-[100vw] min-h-[50px] object-cover" />
 		<div
 			class="bg-footer-100 flex flex-wrap justify-between md:justify-center pt-11 pb-16 px-[36px] md:px-0 gap-x-[40px] md:gap-x-24 gap-y-[20px]"
 		>
