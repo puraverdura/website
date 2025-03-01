@@ -26,16 +26,19 @@
 		</p>
 		<img src="/content/Feld.jpg" alt="Alt text" />
 	</div>
-	<h2>Genossenschafter:in werden</h2>
-	<p>
-		Mit dem Erwerb eines Anteilsscheins im Wert von CHF 500 wirst du
-		Mitglied von Pura Verdura. Diese Summe erhältst du zurück, wenn du die
-		Genossenschaft verlässt. Als Mitglied hast du Stimmrecht bei der
-		jährlichen Generalversammlung und kannst aktiv an der Gestaltung unserer
-		Genossenschaft mitwirken. Die Genossenschaftsanteile finanzieren den
-		Aufbau und Unterhalt der Infrastruktur, wie Geräte und Folientunnel.
-		Nach deinem Beitritt kannst du jährlich einen Ernteanteil beziehen
-	</p>
+	<div class="page-content-row">
+		<h2>Genossenschafter:in werden</h2>
+		<p>
+			Mit dem Erwerb eines Anteilsscheins im Wert von CHF 500 wirst du
+			Mitglied von Pura Verdura. Diese Summe erhältst du zurück, wenn du
+			die Genossenschaft verlässt. Als Mitglied hast du Stimmrecht bei der
+			jährlichen Generalversammlung und kannst aktiv an der Gestaltung
+			unserer Genossenschaft mitwirken. Die Genossenschaftsanteile
+			finanzieren den Aufbau und Unterhalt der Infrastruktur, wie Geräte
+			und Folientunnel. Nach deinem Beitritt kannst du jährlich einen
+			Ernteanteil beziehen
+		</p>
+	</div>
 	<div class="page-content-row">
 		<h2>Mitarbeit</h2>
 		<p>
@@ -80,13 +83,15 @@
 				href="mailto:gemuese@puraverdura.ch">gemuese@puraverdura.ch</a
 			>. Wir freuen uns, Dich kennenzulernen!
 		</p>
-		<h2>Du hast noch Fragen? Kontaktiere uns.</h2>
-		<p>
-			Wir stehen dir bei Fragen gerne zu Verfügung. Schreibe uns ein Mail
-			an: <a href="mailto:miglieder@puraverdura.ch"
-				>miglieder@puraverdura.ch</a
-			>
-		</p>
+		<div class="page-content-row">
+			<h2>Du hast noch Fragen? Kontaktiere uns.</h2>
+			<p>
+				Wir stehen dir bei Fragen gerne zu Verfügung. Schreibe uns ein
+				Mail an: <a href="mailto:miglieder@puraverdura.ch"
+					>miglieder@puraverdura.ch</a
+				>
+			</p>
+		</div>
 	</div>
 	<div class="page-content-row">
 		<CallToAction />

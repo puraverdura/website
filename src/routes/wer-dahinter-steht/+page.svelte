@@ -165,26 +165,29 @@
 			]}
 		/>
 	</div>
-	<CallToAction />
-
-	<PageTeasers
-		pages={[
-			{
-				title: "Wie du mit-machen kannst",
-				link: "/wie-du-mitmachen-kannst/",
-			},
-			{
-				title: "Was wir tun",
-				link: "/wer-dahinter-steht/",
-			},
-			{
-				title: "Wo wir zu Hause sind",
-				link: "/wo-wir-zu-hause-sind/",
-			},
-			{
-				title: "Warum das eine gute Sache ist",
-				link: "/warum-das-eine-gute-sache-ist/",
-			},
-		]}
-	/>
+	<div class="page-content-row">
+		<CallToAction />
+	</div>
+	<div class="page-content-row">
+		<PageTeasers
+			pages={[
+				{
+					title: "Wie du mit-machen kannst",
+					link: "/wie-du-mitmachen-kannst/",
+				},
+				{
+					title: "Was wir tun",
+					link: "/wer-dahinter-steht/",
+				},
+				{
+					title: "Wo wir zu Hause sind",
+					link: "/wo-wir-zu-hause-sind/",
+				},
+				{
+					title: "Warum das eine gute Sache ist",
+					link: "/warum-das-eine-gute-sache-ist/",
+				},
+			]}
+		/>
+	</div>
 </Container>
