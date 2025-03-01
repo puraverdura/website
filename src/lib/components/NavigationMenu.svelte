@@ -45,10 +45,10 @@
 		<ul>
 			{#each menuItems as item, index}
 				<li
-					class="h1 flex justify-center text-center border-b-[1px] border-b-primary-100 font-bold text-[32px] text-primary-100 group"
+					class="h1 flex justify-center text-center border-b-[1px] border-b-primary-100 font-bold text-[32px] text-primary-100 "
 				>
 					<button
-						class="cursor-pointer"
+						class="cursor-pointer hover:text-primary-120"
 						tabindex={index+1}
 						onclick={() => clickLink(item.href)}>
 						{item.name} »</button

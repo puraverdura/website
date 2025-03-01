@@ -16,7 +16,7 @@
 	>
 		{#each pages as page}
 			<a
-				class="bg-primary-70 !text-white !font-heading !font-normal rounded-[4px] text-center !p-[5px] grow-on-hover really-break-words h-[64px] !mb-0 content-center"
+				class="bg-primary-70 !text-white !font-heading !font-normal rounded-[4px] text-center !p-[5px] grow-on-hover hover:bg-primary-100 really-break-words h-[64px] !mb-0 content-center"
 				href="{page.link}">{page.title}</a
 			>
 		{/each}

@@ -16,10 +16,10 @@
 >
 	<button onclick={toggleMenu} class="mx-[20px] md:mx-0">
 		{#if !menuOpen}
-			<Menu class="h-[27px] stroke-primary-100 cursor-pointer" />
+			<Menu class="h-[27px] stroke-primary-100 cursor-pointer hover:stroke-primary-120" />
 		{:else}
 			<Close
-				class="h-[27px] stroke-primary-100 text-primary-100 stroke-[0.25px] cursor-pointer"
+				class="h-[27px] stroke-primary-100 text-primary-100 stroke-[0.25px] cursor-pointer hover:stroke-primary-120 hover:text-primary-120"
 			/>
 		{/if}
 	</button>

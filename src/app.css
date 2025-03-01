@@ -6,6 +6,7 @@
 
 	--color-primary-100: #007d48;
 	--color-primary-70: #4ca47f;
+	--color-primary-120: #00643a;
 	--color-background-100: #e5f2ed;
 	--color-footer-100: #e4dbc9;
 	--color-text-100: #282828;
@@ -49,7 +50,7 @@ li {
 }
 
 a {
-	@apply font-bold font-text text-[18px] text-primary-100;
+	@apply font-bold font-text text-[18px] text-primary-100 hover:text-primary-120;
 }
 
 .container {
