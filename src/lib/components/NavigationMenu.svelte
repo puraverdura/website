@@ -21,7 +21,7 @@
 			href: "/warum-das-eine-gute-sache-ist/",
 		},
 		{ name: "Netzwerk", href: "/netzwerk/" },
-		{ name: "Login", href: "https://login.puraverdura.ch/my/signup/" },
+		{ name: "Login", href: "https://login.puraverdura.ch/" },
 	];
 
 	const clickLink = async (href: string) => {
