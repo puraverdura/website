@@ -9,7 +9,7 @@ const config = {
 
 	kit: {
 		adapter: adapter({ trailingSlash: "always" }),
-		prerender: { entries: ["/", "/netzwerk/"] },
+		prerender: { entries: ["/", "/netzwerk/", "/site-not-found"] },
 	},
 };
 
