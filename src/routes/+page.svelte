@@ -46,7 +46,7 @@
 		<div class="grid grid-cols-1 sm:grid-cols-2 gap-x-[40px] gap-y-[45px]">
 			<WTeaser
 				title="Wer <br> dahinter steht"
-				text="Wir sind xx Genossenschafter:innen, 3 Gartenfachkräfte mit grünem Daumen und Know-how im Gemüseanbau, sowie einer Betriebsgruppe aus xx Mitgliedern, die sich um Finanzen, Kommunikation und weitere organisatorische Aufgaben kümmert. "
+				text="Wir sind 183 Genossenschafter:innen, 3 Gartenfachkräfte mit grünem Daumen und Know-how im Gemüseanbau, sowie einer Betriebsgruppe aus 10 Mitgliedern, die sich um Finanzen, Kommunikation und weitere organisatorische Aufgaben kümmert. "
 				link="/wer-dahinter-steht/"
 				imageSrc="/w_teasers/Illu_Wer_steht_dahinter.png"
 				imageAlt="Wer dahinter steht"
