@@ -23,8 +23,7 @@
 			jährliche Gemüseabo hinzu. Je mehr Du mitarbeitest – sei es auf dem
 			Feld oder beim Abpacken – desto tiefer sind deine Abokosten. Beim
 			Standardabo bezahlst Du rund 30 CHF pro Gemüsetasche (ca. 3 kg
-			Biogemüse). Die Taschen werden wöchentlich und von Januar bis März
-			alle zwei Wochen ausgeliefert. Das sind 42 Taschen pro Jahr.
+			Biogemüse). Die Taschen werden von April bis Dezember wöchentlich und von Januar bis März alle zwei Wochen ausgeliefert. Das sind 42 Taschen pro Jahr.
 		</p>
 		<h2>Unsere Abos auf einen Blick (Stand April 2025)</h2>
 		<h3>Normales Abo</h3>
