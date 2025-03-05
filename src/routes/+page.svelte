@@ -5,7 +5,7 @@
 </script>
 
 <svelte:head>
-	<title>Pura Verdura</title>
+	<title>Pura Verdura - Gemeinsam Gemüse machen</title>
 	<meta
 		name="description"
 		content="Wir sind eine solidarische Genossenschaft in Zürich, die
