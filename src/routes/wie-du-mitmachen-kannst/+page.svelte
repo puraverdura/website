@@ -88,8 +88,8 @@
 			<h2>Du hast noch Fragen? Kontaktiere uns.</h2>
 			<p>
 				Wir stehen dir bei Fragen gerne zu Verfügung. Schreibe uns ein
-				Mail an: <a href="mailto:miglieder@puraverdura.ch"
-					>miglieder@puraverdura.ch</a
+				Mail an: <a href="mailto:mitglieder@puraverdura.ch"
+					>mitglieder@puraverdura.ch</a
 				>
 			</p>
 	</div>
