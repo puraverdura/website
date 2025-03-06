@@ -66,6 +66,8 @@
 				>mitglieder@puraverdura.ch</a
 			> kontaktieren, und wir helfen dir, eine passende Person zu finden.
 		</p>
+	</div>
+	<div class="page-content-row">
 		<h2>Du hast noch Fragen? Kontaktiere uns.</h2>
 		<p>
 			Wir stehen dir bei Fragen gerne zur Verfügung. Schreibe uns ein Mail
