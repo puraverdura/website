@@ -2,7 +2,7 @@
 
 @theme {
 	--font-text: "Lora", serif;
-	--font-heading: "Tahoma", serif;
+	--font-heading: "Tahoma", sans-serif;
 
 	--color-primary-100: #007d48;
 	--color-primary-70: #4ca47f;
@@ -17,15 +17,15 @@
 	font-style: normal;
 	font-weight: 200 700;
 	font-display: swap;
-	src: url("/fonts/Lora-Regular.ttf") format("ttf");
+	src: local("/fonts/Lora-Regular.ttf") format("ttf");
 }
 
 @font-face {
 	font-family: Tahoma;
 	font-style: normal;
 	font-weight: 200 700;
-	font-display: swap;
-	src: url("/fonts/Tahoma.ttf") format("ttf");
+	font-display: auto;
+	src: local("/fonts/Tahoma.ttf") format("ttf");
   }
 
 h1,
