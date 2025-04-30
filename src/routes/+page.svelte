@@ -53,7 +53,7 @@
 			/>
 			<WTeaser
 				title="Wo <br> wir zu Hause sind"
-				text="Unsere beiden Äcker und die Folientunnel befinden sich in Zürich, im Kreis 8 auf der Wynegg und oberhalb des Gartenareals Lengg. Die Gemüsedepots, in denen jeweils donnerstags unser Gemüse zur Abholung bereitsteht, liegen in den Kreisen 1, 7 und 8. "
+				text="Unsere beiden Äcker und die Folientunnel befinden sich in Zürich, im Kreis 8 auf der Wynegg und oberhalb des Gartenareals Lengg. Die Gemüsedepots, in denen jeweils donnerstags unser Gemüse zur Abholung bereitsteht, liegen in den Kreisen 1, 7, 8 und Witikon. "
 				link="/wo-wir-zu-hause-sind/"
 				imageSrc="/w_teasers/Illu_Wo_zu_Hause.png"
 				imageAlt="Wo wir zu Hause sind"

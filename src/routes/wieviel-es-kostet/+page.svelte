@@ -29,11 +29,13 @@
 		<h2>Unsere Abos auf einen Blick (Stand April 2025)</h2>
 		<h3>Normales Abo</h3>
 		<p>
+			(ca. 3 kg Bio-Gemüse) <br />
 			1265.-/Jahr <br />
 			32 Stunden Mitarbeit auf dem Feld pro Jahr.
 		</p>
 		<h3>Stilles Abo</h3>
 		<p>
+			(ca. 3 kg Bio-Gemüse) <br />
 			1740.-/Jahr <br />
 			Ohne Mitarbeit auf dem Feld.
 		</p>
