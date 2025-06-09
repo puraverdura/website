@@ -1,0 +1,1 @@
+export { default as component } from "../../../../src/routes/wie-du-mitmachen-kannst/+page.svelte";
