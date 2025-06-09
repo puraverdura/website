@@ -57,7 +57,7 @@
 		</p>
 	</div>
 	<div class="page-content-row">
-		<h1>So sieht das aus</h1>
+		<h2>So sieht das aus</h2>
 		<ImageCarousel
 			images={[
 				{
@@ -108,7 +108,7 @@
 		/>
 	</div>
 	<div class="page-content-row">
-		<h1>Dokumente</h1>
+		<h2>Dokumente</h2>
 		<ul>
 			<li>
 				<a

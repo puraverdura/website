@@ -26,6 +26,8 @@
 			Biogemüse). Die Taschen werden wöchentlich und von Januar bis März
 			alle zwei Wochen ausgeliefert. Das sind 42 Taschen pro Jahr.
 		</p>
+	</div>
+	<div class="page-content-row">
 		<h2>Unsere Abos auf einen Blick (Stand April 2025)</h2>
 		<h3>Normales Abo</h3>
 		<p>
@@ -53,9 +55,11 @@
 		</p>
 		<h3>Firmen-Abo:</h3>
 		<p>
-			CHF 1900.- / Jahr Ohne Mitarbeit auf dem Feld. Team-Event(s) bei uns
+			CHF 1900.- / Jahr Ohne Mitarbeit auf dem Feld. Team-Event(s) bei uns
 			auf dem Acker möglich.
 		</p>
+	</div>
+	<div class="page-content-row">
 		<h2>Abosharing</h2>
 		<p>
 			Falls dir das Abo zu teuer ist oder die wöchentliche Gemüsemenge zu
@@ -65,6 +69,8 @@
 				>mitglieder@puraverdura.ch</a
 			> kontaktieren, und wir helfen dir, eine passende Person zu finden.
 		</p>
+	</div>
+	<div class="page-content-row">
 		<h2>Du hast noch Fragen? Kontaktiere uns.</h2>
 		<p>
 			Wir stehen dir bei Fragen gerne zur Verfügung. Schreibe uns ein Mail

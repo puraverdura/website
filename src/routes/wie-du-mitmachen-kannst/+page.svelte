@@ -83,7 +83,8 @@
 				href="mailto:gemuese@puraverdura.ch">gemuese@puraverdura.ch</a
 			>. Wir freuen uns, Dich kennenzulernen!
 		</p>
-		<div class="page-content-row">
+	</div>
+	<div class="page-content-row">
 			<h2>Du hast noch Fragen? Kontaktiere uns.</h2>
 			<p>
 				Wir stehen dir bei Fragen gerne zu Verfügung. Schreibe uns ein
@@ -92,7 +93,6 @@
 				>
 			</p>
 		</div>
-	</div>
 	<div class="page-content-row">
 		<CallToAction />
 	</div>
