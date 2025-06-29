@@ -43,6 +43,11 @@ h3,
 	@apply font-bold font-heading text-[18px] md:text-[20px] text-primary-100;
 }
 
+h4,
+.h4 {
+	@apply font-bold font-heading text-[17px] text-primary-100;
+}
+
 p,
 ul,
 li {
