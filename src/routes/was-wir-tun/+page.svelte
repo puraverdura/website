@@ -112,6 +112,13 @@
 		<ul>
 			<li>
 				<a
+					href="https://wordpress.puraverdura.ch/wp-content/uploads/PuraVerdura_Jahresbericht_2024_SCREEN.pdf"
+					>Jahresbericht 2024 »</a
+				>
+			</li>
+
+			<li>
+				<a
 					href="https://www.puraverdura.ch/wp-content/uploads/PuraVerdura_Jahresbericht_2023_Screen.pdf"
 					>Jahresbericht 2023 »</a
 				>
