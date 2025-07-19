@@ -1,0 +1,29 @@
+backend:
+  name: github
+  repo: puraverdura/website # Path to your GitHub repository
+  branch: main
+
+media_folder: src/images # folder where user uploaded files should go
+public_folder: /images
+
+search: false
+
+slug:
+    encoding: ascii
+    clean_accents: true
+    sanitize_replacement: "-"
+
+collections:
+    -
+        name: events # used in routes, e.g. /admin/collections/blog
+        identifier_field: title
+        label: Events # used in the ui
+        label_singular: Event
+        folder: src/content/events # path to the folder where the documents are stored
+        create: true # allow users to create new documents in this collection
+        slug: "{{date}}-{{slug}}" # filename template, e.g. YYYY-MM-DD-title.md
+        fields: # fields for each document in front matter
+            - { label: Title, name: title, widget: string }
+            - { label: Beschreibung, name: description, widget: text }
+            - { label: "Datum", name: "date", widget: "datetime", date_format: "DD.MM.YYYY", time_format: false }
+            - { label: "Auf der Seite verbergen", name: "hideOnSite", widget: "boolean" }
