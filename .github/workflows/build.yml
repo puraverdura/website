@@ -4,9 +4,13 @@ on:
   push:
     branches:
       - main
+  workflow_dispatch:
 
 permissions:
   contents: write
+
+env:
+  WEBHOOK_URL: ${{ secrets.PLESK_WEBHOOK_URL }}
 
 jobs:
   build:
@@ -42,3 +46,8 @@ jobs:
           git add .
           git commit -m "Update built files"
           git push --force origin build
+
+      - name: Deploy to Plesk
+        run: |
+          curl -X POST $PLESK_WEBHOOK_URL
+
