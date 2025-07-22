@@ -49,5 +49,5 @@ jobs:
 
       - name: Deploy to Plesk
         run: |
-          curl -X POST $PLESK_WEBHOOK_URL
+          curl -X POST "$PLESK_WEBHOOK_URL"
 
