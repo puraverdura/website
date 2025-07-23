@@ -13,7 +13,10 @@ export const load = async ({ params }) => {
 	const todaysDateString = new Date().toISOString().split("T")[0];
 	const todaysDate = Date.parse(todaysDateString);
 
-	const getEventWithLocalDate = (event: AgendaEvent, eventDate: number): AgendaEvent => {
+	const getEventWithLocalDate = (
+		event: AgendaEvent,
+		eventDate: number
+	): AgendaEvent => {
 		return {
 			...event,
 			date: Intl.DateTimeFormat("de-CH", {
@@ -29,17 +32,38 @@ export const load = async ({ params }) => {
 			if (event.hideOnSite) return acc;
 
 			if (eventDate >= todaysDate) {
-				acc.upcoming.push(getEventWithLocalDate(event, eventDate));
+				const year = new Date(event.date).getFullYear().toString();
+
+				if(!acc.upcoming[year]){
+					acc.upcoming[year] = [];
+				}
+
+				acc.upcoming[year].push(
+					getEventWithLocalDate(event, eventDate)
+				);
 			} else {
 				acc.past.push(getEventWithLocalDate(event, eventDate));
 			}
 			return acc;
 		},
-		{ upcoming: [] as AgendaEvent[], past: [] as AgendaEvent[] }
+		{
+			upcoming: {} as Record<string, AgendaEvent[]>,
+			past: [] as AgendaEvent[],
+		}
 	);
 
-	upcoming.sort((a, b) => b.date.localeCompare(a.date));
-	past.sort((a, b) => a.date.localeCompare(b.date));
+	const sortedUpcoming = Object.keys(upcoming)
+		.sort()
+		.reduce((acc, key) => {
+			const upcomingEvents = upcoming[key];
+			acc[key] = upcomingEvents.sort((a, b) =>
+				Date.parse(a.date) - Date.parse(b.date)
+			);
 
-	return { upcoming, past };
+			return acc;
+		}, {} as Record<string, AgendaEvent[]>);
+
+	const sortedPast = [...past].sort((a, b) => Date.parse(b.date) - Date.parse(a.date));
+
+	return { upcoming: sortedUpcoming, past: sortedPast };
 };

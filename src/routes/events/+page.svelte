@@ -23,12 +23,14 @@
 			Nilhit cogito cogito cogito miratur vencerm cogito ergo sum.
 		</p>
 	</div>
-	<div class="page-content-row">
-		<h2>Bevorstehende Anlässe 2025</h2>
-		{#each data.upcoming as event}
-			<AgendaEvent {event} />
-		{/each}
-	</div>
+	{#each Object.entries(data.upcoming) as [year, events]}
+		<div class="page-content-row">
+			<h2>Bevorstehende Anlässe {year}</h2>
+			{#each events as event}
+				<AgendaEvent {event} />
+			{/each}
+		</div>
+	{/each}
 	<div class="page-content-row">
 		<h2>Vergangene Anlässe</h2>
 		{#each data.past as event}
