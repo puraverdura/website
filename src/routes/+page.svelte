@@ -151,7 +151,7 @@
 					<AgendaEvent {event} isFutureEvent={true} />
 				{/each}
 				<div class="flex flex-col items-end mt-[14px] sm:mt-[17px]">
-					<a class="rounded-[4px] bg-primary-15 !px-[5px]" href="/agenda">alle Termine »</a>
+					<a class="rounded-[4px] bg-primary-15 !px-[5px]" href="/agenda/">alle Termine »</a>
 				</div>
 			</div>
 		{/if}
