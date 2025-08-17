@@ -140,7 +140,7 @@
 				]}
 			/>
 		</div>
-		{#if data.eventsForHomepage}
+		{#if data.eventsForHomepage.length }
 			<div class="relative">
 				<div class="bg-primary-100 h-[12px] min-w-max mb-[7px] sm:mb-[9px] block"></div>
 				<div class="absolute right-0 -top-1 pl-[12px] bg-white hidden sm:block">

@@ -26,6 +26,10 @@
 			Events willkommen zu heissen.
 		</p>
 	</div>
+	{#if !data.groupedUpcoming.length}
+		<h2>Bevorstehende Anlässe</h2>
+		<p>Momentan stehen keine Anlasse bevor</p>
+	{/if}
 	{#each data.groupedUpcoming as agendaYearGroup}
 		<div class="page-content-row">
 			<h2>Bevorstehende Anlässe {agendaYearGroup.year}</h2>
@@ -34,17 +38,19 @@
 			{/each}
 		</div>
 	{/each}
-	<div class="page-content-row">
-		<h2>Vergangene Anlässe</h2>
-		{#each data.groupedPast as agendaYearGroup}
-			<div class="mb-[14px] sm:mb-[17px]">
-				<h3 class="!mb-0">{agendaYearGroup.year}</h3>
-				<div>
-					{#each agendaYearGroup.events as event}
-						<AgendaEvent {event} isFutureEvent={false} />
-					{/each}
+	{#if data.groupedPast.length}
+		<div class="page-content-row">
+			<h2>Vergangene Anlässe</h2>
+			{#each data.groupedPast as agendaYearGroup}
+				<div class="mb-[14px] sm:mb-[17px]">
+					<h3 class="!mb-0">{agendaYearGroup.year}</h3>
+					<div>
+						{#each agendaYearGroup.events as event}
+							<AgendaEvent {event} isFutureEvent={false} />
+						{/each}
+					</div>
 				</div>
-			</div>
-		{/each}
-	</div>
+			{/each}
+		</div>
+	{/if}
 </Container>
