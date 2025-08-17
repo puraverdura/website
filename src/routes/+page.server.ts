@@ -25,6 +25,9 @@ export const load = async ({ params }) => {
 
 	const eventsForHomepage = events
 		.filter((event) => {
+			if (event.hideOnSite) {
+				return false;
+			}
 			const eventDate = Date.parse(event.date);
 			return eventDate >= todaysDate;
 		})
