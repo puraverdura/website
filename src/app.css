@@ -6,10 +6,12 @@
 
 	--color-primary-100: #007d48;
 	--color-primary-70: #4ca47f;
+	--color-primary-15: #dcebe4;
 	--color-primary-120: #00643a;
 	--color-background-100: #e5f2ed;
 	--color-footer-100: #e4dbc9;
 	--color-text-100: #282828;
+	--color-text-50: #939393;
 }
 
 @font-face {

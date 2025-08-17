@@ -21,7 +21,6 @@
 	<Header
 		menuOpen={false}
 		toggleMenu={() => {
-			console.log("toggle menu");
 			menuOpen = !menuOpen;
 		}}
 	/>

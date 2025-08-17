@@ -20,6 +20,10 @@
 			name: "Warum das eine gute Sache ist",
 			href: "/warum-das-eine-gute-sache-ist/",
 		},
+		{
+			name: "Agenda",
+			href: "/agenda/",
+		},
 		{ name: "Netzwerk", href: "/netzwerk/" },
 		{ name: "Login", href: "https://login.puraverdura.ch/" },
 	];

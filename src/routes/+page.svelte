@@ -1,7 +1,9 @@
 <script lang="ts">
 	import ImageCarousel from "$lib/components/ImageCarousel.svelte";
 	import WTeaser from "$lib/components/WTeaser.svelte";
-	import DoubleArrowDown from "$lib/icons/DoubleArrowDown.svelte";
+	import AgendaEvent from "$lib/components/AgendaEvent.svelte";
+
+	const { data } = $props();
 </script>
 
 <svelte:head>
@@ -138,6 +140,21 @@
 				]}
 			/>
 		</div>
+		{#if data.eventsForHomepage.length }
+			<div class="relative">
+				<div class="bg-primary-100 h-[12px] min-w-max mb-[7px] sm:mb-[9px] block"></div>
+				<div class="absolute right-0 -top-1 pl-[12px] bg-white hidden sm:block">
+					<img class="h-[80px]" src="/Illustration_Calendar.png" alt="Illustration eines Kalenders"/>
+				</div>
+				<h2 class="inline-block">Aktuelle Termine</h2>
+				{#each data.eventsForHomepage as event}
+					<AgendaEvent {event} isFutureEvent={true} />
+				{/each}
+				<div class="flex flex-col items-end mt-[14px] sm:mt-[17px]">
+					<a class="rounded-[4px] bg-primary-15 !px-[5px]" href="/agenda">alle Termine »</a>
+				</div>
+			</div>
+		{/if}
 	</div>
 </div>
 
