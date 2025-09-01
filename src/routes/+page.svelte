@@ -32,6 +32,9 @@
 			/>
 		</a>
 	</div>
+	<div class="bg-primary-100 flex justify-center border-b-[18px] md:border-b-[25px] border-b-primary-100 px-[36px] group">
+		<a class="banner-text hover:!text-primary-15" href="https://login.puraverdura.ch/my/signup/">Freie Gemüseabos – jetzt zugreifen!</a>
+	</div>
 	<div class="container">
 		<div
 			class="text-center flex flex-col justify-center gap-y-[6px] md:gap-y-[12px]"

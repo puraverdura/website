@@ -50,6 +50,10 @@ h4,
 	@apply font-bold font-heading text-[17px] text-primary-100;
 }
 
+.banner-text {
+	@apply font-bold font-heading text-[16px] sm:text-[18px] md:text-[20px] text-white;
+}
+
 p,
 ul,
 li {
