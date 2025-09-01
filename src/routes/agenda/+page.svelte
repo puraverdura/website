@@ -27,8 +27,10 @@
 		</p>
 	</div>
 	{#if !data.groupedUpcoming.length}
+	<div class="page-content-row">
 		<h2>Bevorstehende Anlässe</h2>
 		<p>Momentan stehen keine Anlasse bevor</p>
+	</div>
 	{/if}
 	{#each data.groupedUpcoming as agendaYearGroup}
 		<div class="page-content-row">
