@@ -112,6 +112,10 @@ html {
 	margin-bottom: 15px;
 }
 
+.page-content p:has(+ul) {
+	margin-bottom: 5px;
+}
+
 /* md: in tailwind */
 @media (min-width: 768px) {
 	.page-content p,
