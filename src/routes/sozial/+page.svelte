@@ -5,11 +5,10 @@
 </script>
 
 <svelte:head>
-	<title>Warum das eine gute Sache ist - Pura Verdura</title>
+	<title>Pura Verdura Sozial – Gemeinsam für mehr Zugang zu gesundem Gemüse</title>
 	<meta
 		name="description"
-		content="Unsere Partner unterstützen uns bei der Umsetzung unserer Ziele und
-		fördern den Austausch von Wissen und Ressourcen."
+		content="Mit unserem Projekt Pura Verdura Sozial möchten wir sicherstellen, dass auch armutsbetroffene Haushalte Zugang zu gesundem, lokal produziertem Gemüse erhalten."
 	/>
 </svelte:head>
 
@@ -19,7 +18,7 @@
 	</div>
 	<div class="page-content-row">
 		<h2>Frisches, regionales Bio-Gemüse für alle – auch für Menschen mit geringem Einkommen.</h2>
-		<p>Wir sind nicht nur eine solidarische Landwirtschaftsgenossenschaft, die in Zürich gemeinschaftlich Gemüse anbaut, sondern auch ein Ort der Gemeinschaft und des Miteinanders. Mit unserem <strong>Pura Verdura Sozial</strong> möchten wir sicherstellen, dass auch armutsbetroffene Haushalte Zugang zu gesundem, lokal produziertem Gemüse erhalten.</p>
+		<p>Wir sind nicht nur eine solidarische Landwirtschaftsgenossenschaft, die in Zürich gemeinschaftlich Gemüse anbaut, sondern auch ein Ort der Gemeinschaft und des Miteinanders. Mit unserem Projekt<strong>Pura Verdura Sozial</strong> möchten wir sicherstellen, dass auch armutsbetroffene Haushalte Zugang zu gesundem, lokal produziertem Gemüse erhalten.</p>
 	</div>
 
 	<div class="page-content-row">
@@ -45,6 +44,6 @@
 	<div class="page-content-row">
 		<h2>Kontakt & Spenden</h2>
 		<p>Hast du Fragen zu unserem Projekt oder möchtest du uns unterstützen? Wir freuen uns, von dir zu hören!</p>
-		<p><strong>E-Mail: </strong>info@puraverdura.ch</p>
+		<p><strong>E-Mail:</strong> info@puraverdura.ch</p>
 	</div>
 </Container>
