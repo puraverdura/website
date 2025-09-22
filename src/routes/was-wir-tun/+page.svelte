@@ -143,7 +143,7 @@
 			</li>
 			<li>
 				<a
-					href="https://www.puraverdura.ch/wp-content/uploads/Statuten_Pura-Verdura_Version_2022_nach-GV.pdf"
+					href="https://wordpress.puraverdura.ch/wp-content/uploads/Statuten-PuraVerdura-2024.pdf"
 					>Statuten »</a
 				>
 			</li>
