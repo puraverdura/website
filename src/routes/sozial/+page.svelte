@@ -18,7 +18,7 @@
 	</div>
 	<div class="page-content-row">
 		<h2>Frisches, regionales Bio-Gemüse für alle – auch für Menschen mit geringem Einkommen.</h2>
-		<p>Wir sind nicht nur eine solidarische Landwirtschaftsgenossenschaft, die in Zürich gemeinschaftlich Gemüse anbaut, sondern auch ein Ort der Gemeinschaft und des Miteinanders. Mit unserem Projekt<strong>Pura Verdura Sozial</strong> möchten wir sicherstellen, dass auch armutsbetroffene Haushalte Zugang zu gesundem, lokal produziertem Gemüse erhalten.</p>
+		<p>Wir sind nicht nur eine solidarische Landwirtschaftsgenossenschaft, die in Zürich gemeinschaftlich Gemüse anbaut, sondern auch ein Ort der Gemeinschaft und des Miteinanders. Mit unserem Projekt <strong>Pura Verdura Sozial</strong> möchten wir sicherstellen, dass auch armutsbetroffene Haushalte Zugang zu gesundem, lokal produziertem Gemüse erhalten.</p>
 	</div>
 
 	<div class="page-content-row">
