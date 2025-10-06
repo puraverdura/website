@@ -30,5 +30,5 @@ collections:
             - { label: Title, name: title, widget: string, pattern: ['^.{0,40}$', "Der Titel darf nicht mehr als 40 Zeichen haben"] }
             - { label: Beschreibung, name: description, widget: text }
             - { label: "Datum", name: "date", widget: "datetime", date_format: "YYYY-MM-DD", time_format: false }
-            - { label: "Link", name: "link", widget: string, pattern: ['^https?:\/\/.*', "Der Link muss zwingend mit https:// oder mit http:// beginnen"] }
-            - { label: "Auf der Seite verbergen", name: "hideOnSite", widget: "boolean", hint: 'Wenn angewält: Event wird nicht auf der Seite angezeigt. \n Für Benutzer:innen mit technischem Nowhow kann der Eintrag aber dennoch sichtbar sein.' }
+            - { label: "Link", name: "link", widget: string, pattern: ['^(?:https?:\/\/.*)?$', "Der Link muss zwingend mit https:// oder mit http:// beginnen"], required: false }
+            - { label: "Auf der Seite verbergen", name: "hideOnSite", widget: "boolean", hint: 'Wenn angewält: Event wird nicht auf der Seite angezeigt. \n Für Benutzer:innen mit technischem Knowhow kann der Eintrag aber dennoch sichtbar sein.' }
