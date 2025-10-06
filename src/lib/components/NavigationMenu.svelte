@@ -25,6 +25,7 @@
 			href: "/agenda/",
 		},
 		{ name: "Netzwerk", href: "/netzwerk/" },
+		{ name: "Pura Verdura Sozial", href: "/sozial/" },
 		{ name: "Login", href: "https://login.puraverdura.ch/" },
 	];
 
