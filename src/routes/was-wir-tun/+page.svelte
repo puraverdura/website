@@ -153,6 +153,12 @@
 					>Betriebsreglement »</a
 				>
 			</li>
+			<li>
+				<a
+					href="https://wordpress.puraverdura.ch/wp-content/uploads/FAQ_Pura-Verdura.pdf"
+					>FAQ »</a
+				>
+			</li>
 		</ul>
 	</div>
 	<div class="page-content-row">
