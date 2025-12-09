@@ -6,13 +6,6 @@
 
 	const bgMembers = [
 		{
-			name: "Noe",
-			role: "Gartenteam",
-			image: "Noe.jpg",
-			description:
-				"begeistert sich für solidarische Landwirtschaft und die abwechslungsreiche Arbeit auf dem Acker. Nach einem Praktikum bei der Genossenschaft «meh als Gmües» arbeitet er jetzt bei Pura Verdura als Gartenfachkraft auf dem Feld und in den Gewächshäusern, um sein Wissen im Bio-Gemüseanbau zu erweitern.",
-		},
-		{
 			name: "Rose",
 			role: "Gartenteam",
 			image: "Rose.jpg",
@@ -66,7 +59,7 @@
 			role: "Kommunikation",
 			image: "Isa.jpg",
 			description:
-				"studierte Wirtschaft mit Fokus auf Ethik und Sustainable Leadership in Milano und Frankfurt. Seit 2012 lebt sie in der Schweiz und arbeitet im Sales &amp; Marketing. Sie besuchte Kurse in Naturheilkunde. Isa liebt die Natur und kocht gerne mit saisonalem Biogemüse. Nach Jahren als Mitglied bei Pura Verdura leitet sie nun mit Tanja das Ressort Kommunikation.",
+				"studierte Wirtschaft mit Fokus auf Ethik und Sustainable Leadership in Milano und Frankfurt. Seit 2012 lebt sie in der Schweiz und arbeitet im Bereich Veranstaltungen und Kommunikation. Isa liebt es in der Natur zu sein und kocht gerne mit saisonalem Biogemüse. Nach Jahren als Mitglied bei Pura Verdura leitet sie nun mit Tanja das Ressort Kommunikation.",
 		},
 		{
 			name: "Harry",
@@ -76,11 +69,11 @@
 				"arbeitet im Umweltmanagement und liebt gutes Essen. Für ihn ist die solidarische Landwirtschaft das perfekte Zusammenspiel von saisonaler, regionaler und ökologischer Ernährung. Als aktiver Triathlet benötigt er auch eine ganze Menge davon.",
 		},
 		{
-			name: "Carolin",
+			name: "Lino",
 			role: "HR",
-			image: "Carolin.jpg",
+			image: "Lino.jpeg",
 			description:
-				"hat viel Spass beim gemeinsamen Gärtnern und schätzt vor allem das Miteinander der Mitglieder auf dem Acker. Sie liebt die Natur und freut sich über alles was aus oder unter der Erde wächst. Vor allem über frisches Pura Verdura Gemüse. Ansonsten ist sie jederzeit leidenschaftlich auf ihrem Velo anzutreffen. Immer offen für Neues hat sie im April das HR-Amt von Vanessa übernommen.",
+				"ist von der Moderne entzaubert und arbeitet unter anderem bei Pura Verdura an einer tauglicheren Alternative. Als Psychologe unterstützt er Menschen, die sich auf ähnliche Wege begeben möchten.",
 		},
 	];
 </script>
