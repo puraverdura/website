@@ -1,0 +1,49 @@
+import { i as head } from "../../../chunks/index.js";
+import { C as CallToAction, P as PageTeasers } from "../../../chunks/PageTeasers.js";
+import { C as Container } from "../../../chunks/Container.js";
+function _page($$payload) {
+  head($$payload, ($$payload2) => {
+    $$payload2.title = `<title>Wieviel es kostet - Pura Verdura</title>`;
+    $$payload2.out += `<meta name="description" content="Neben einem Anteilsschein von 500 CHF kommen die Kosten für das jährliche
+		Gemüseabo hinzu. Je mehr Du mitarbeitest – sei es auf dem Feld oder beim
+		Abpacken – desto tiefer sind deine Abokosten. Beim Standardabo bezahlst
+		Du rund 30 CHF pro Gemüsetasche (ca. 3 kg Biogemüse).">`;
+  });
+  Container($$payload, {
+    children: ($$payload2) => {
+      $$payload2.out += `<div class="page-content-row"><h1>Wieviel es kostet</h1> <p>Neben einem Anteilsschein von 500 CHF kommen die Kosten für das
+			jährliche Gemüseabo hinzu. Je mehr Du mitarbeitest – sei es auf dem
+			Feld oder beim Abpacken – desto tiefer sind deine Abokosten. Beim
+			Standardabo bezahlst Du rund 30 CHF pro Gemüsetasche (ca. 3 kg
+			Biogemüse). Die Taschen werden wöchentlich und von Januar bis März
+			alle zwei Wochen ausgeliefert. Das sind 42 Taschen pro Jahr.</p></div> <div class="page-content-row"><h2>Unsere Abos auf einen Blick (Stand April 2025)</h2> <h3>Normales Abo</h3> <p>(ca. 3 kg Bio-Gemüse) <br> 1265.-/Jahr <br> 32 Stunden Mitarbeit auf dem Feld pro Jahr.</p> <h3>Stilles Abo</h3> <p>(ca. 3 kg Bio-Gemüse) <br> 1740.-/Jahr <br> Ohne Mitarbeit auf dem Feld.</p> <h3>Kleines Abo</h3> <p>(kleinere Tasche, ca. 1.5-2 kg Bio-Gemüse) <br> CHF 790.- /Jahr <br> 16 Stunden Mitarbeit auf dem Feld pro Jahr.</p> <h3>Kleines stilles Abo</h3> <p>(kleinere Tasche, ca. 1.5-2 kg Bio-Gemüse) <br> CHF 1040.- / Jahr <br> Ohne Mitarbeit auf dem Feld.</p> <h3>Firmen-Abo:</h3> <p>CHF 1900.- / Jahr Ohne Mitarbeit auf dem Feld. Team-Event(s) bei uns
+			auf dem Acker möglich.</p></div> <div class="page-content-row"><h2>Abosharing</h2> <p>Falls dir das Abo zu teuer ist oder die wöchentliche Gemüsemenge zu
+			gross erscheint, hast du die Möglichkeit, es zu teilen. Für das
+			Abosharing kannst du uns unter <a href="mailto:mitglieder@puraverdura.ch">mitglieder@puraverdura.ch</a> kontaktieren, und wir helfen dir, eine passende Person zu finden.</p></div> <div class="page-content-row"><h2>Du hast noch Fragen? Kontaktiere uns.</h2> <p>Wir stehen dir bei Fragen gerne zur Verfügung. Schreibe uns ein Mail
+			an: <a href="mailto:miglieder@puraverdura.ch">miglieder@puraverdura.ch</a></p></div> <div class="page-content-row">`;
+      CallToAction($$payload2);
+      $$payload2.out += `<!----></div> <div class="page-content-row">`;
+      PageTeasers($$payload2, {
+        pages: [
+          { title: "Was wir tun", link: "/was-wir-tun/" },
+          {
+            title: "Wer dahinter steht",
+            link: "/wer-dahinter-steht/"
+          },
+          {
+            title: "Wo wir zu Hause sind",
+            link: "/wo-wir-zu-hause-sind/"
+          },
+          {
+            title: "Warum das eine gute Sache ist",
+            link: "/warum-das-eine-gute-sache-ist/"
+          }
+        ]
+      });
+      $$payload2.out += `<!----></div>`;
+    }
+  });
+}
+export {
+  _page as default
+};

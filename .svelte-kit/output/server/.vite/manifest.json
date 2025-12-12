@@ -1,0 +1,320 @@
+{
+  ".svelte-kit/generated/server/internal.js": {
+    "file": "internal.js",
+    "name": "internal",
+    "src": ".svelte-kit/generated/server/internal.js",
+    "isEntry": true,
+    "imports": [
+      "_internal.js"
+    ]
+  },
+  "_AgendaEvent.js": {
+    "file": "chunks/AgendaEvent.js",
+    "name": "AgendaEvent",
+    "imports": [
+      "_attributes.js",
+      "_escaping.js"
+    ]
+  },
+  "_Container.js": {
+    "file": "chunks/Container.js",
+    "name": "Container"
+  },
+  "_ImageCarousel.js": {
+    "file": "chunks/ImageCarousel.js",
+    "name": "ImageCarousel",
+    "imports": [
+      "_index.js",
+      "_escaping.js",
+      "_attributes.js"
+    ]
+  },
+  "_PageTeasers.js": {
+    "file": "chunks/PageTeasers.js",
+    "name": "PageTeasers",
+    "imports": [
+      "_index.js",
+      "_attributes.js",
+      "_escaping.js"
+    ]
+  },
+  "_attributes.js": {
+    "file": "chunks/attributes.js",
+    "name": "attributes",
+    "imports": [
+      "_escaping.js"
+    ]
+  },
+  "_client.js": {
+    "file": "chunks/client.js",
+    "name": "client",
+    "imports": [
+      "_exports.js",
+      "_equality.js"
+    ]
+  },
+  "_equality.js": {
+    "file": "chunks/equality.js",
+    "name": "equality"
+  },
+  "_escaping.js": {
+    "file": "chunks/escaping.js",
+    "name": "escaping"
+  },
+  "_exports.js": {
+    "file": "chunks/exports.js",
+    "name": "exports",
+    "imports": [
+      "_equality.js"
+    ]
+  },
+  "_html.js": {
+    "file": "chunks/html.js",
+    "name": "html"
+  },
+  "_index.js": {
+    "file": "chunks/index.js",
+    "name": "index"
+  },
+  "_internal.js": {
+    "file": "chunks/internal.js",
+    "name": "internal",
+    "imports": [
+      "_equality.js",
+      "_index.js"
+    ]
+  },
+  "node_modules/@sveltejs/kit/src/runtime/components/svelte-5/error.svelte": {
+    "file": "entries/fallbacks/error.svelte.js",
+    "name": "entries/fallbacks/error.svelte",
+    "src": "node_modules/@sveltejs/kit/src/runtime/components/svelte-5/error.svelte",
+    "isEntry": true,
+    "imports": [
+      "_escaping.js",
+      "_index.js",
+      "_client.js"
+    ]
+  },
+  "node_modules/@sveltejs/kit/src/runtime/server/index.js": {
+    "file": "index.js",
+    "name": "index",
+    "src": "node_modules/@sveltejs/kit/src/runtime/server/index.js",
+    "isEntry": true,
+    "imports": [
+      "_internal.js",
+      "_exports.js"
+    ]
+  },
+  "src/content/events/2025-08-23-pura-verdura-ackerfest-2025.json": {
+    "file": "chunks/2025-08-23-pura-verdura-ackerfest-2025.js",
+    "name": "2025-08-23-pura-verdura-ackerfest-2025",
+    "src": "src/content/events/2025-08-23-pura-verdura-ackerfest-2025.json",
+    "isDynamicEntry": true
+  },
+  "src/content/events/2025-10-11-herbstmarkt-im-botanischen-garten.json": {
+    "file": "chunks/2025-10-11-herbstmarkt-im-botanischen-garten.js",
+    "name": "2025-10-11-herbstmarkt-im-botanischen-garten",
+    "src": "src/content/events/2025-10-11-herbstmarkt-im-botanischen-garten.json",
+    "isDynamicEntry": true
+  },
+  "src/content/events/2025-11-02-neue-kalender-poster-postkarten.json": {
+    "file": "chunks/2025-11-02-neue-kalender-poster-postkarten.js",
+    "name": "2025-11-02-neue-kalender-poster-postkarten",
+    "src": "src/content/events/2025-11-02-neue-kalender-poster-postkarten.json",
+    "isDynamicEntry": true
+  },
+  "src/content/events/2025-11-08-martini-markt.json": {
+    "file": "chunks/2025-11-08-martini-markt.js",
+    "name": "2025-11-08-martini-markt",
+    "src": "src/content/events/2025-11-08-martini-markt.json",
+    "isDynamicEntry": true
+  },
+  "src/routes/+layout.svelte": {
+    "file": "entries/pages/_layout.svelte.js",
+    "name": "entries/pages/_layout.svelte",
+    "src": "src/routes/+layout.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index.js",
+      "_attributes.js",
+      "_client.js",
+      "_escaping.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_layout.BhGpOAVM.css"
+    ]
+  },
+  "src/routes/+layout.ts": {
+    "file": "entries/pages/_layout.ts.js",
+    "name": "entries/pages/_layout.ts",
+    "src": "src/routes/+layout.ts",
+    "isEntry": true
+  },
+  "src/routes/+page.server.ts": {
+    "file": "entries/pages/_page.server.ts.js",
+    "name": "entries/pages/_page.server.ts",
+    "src": "src/routes/+page.server.ts",
+    "isEntry": true,
+    "dynamicImports": [
+      "src/content/events/2025-08-23-pura-verdura-ackerfest-2025.json",
+      "src/content/events/2025-10-11-herbstmarkt-im-botanischen-garten.json",
+      "src/content/events/2025-11-02-neue-kalender-poster-postkarten.json",
+      "src/content/events/2025-11-08-martini-markt.json"
+    ]
+  },
+  "src/routes/+page.svelte": {
+    "file": "entries/pages/_page.svelte.js",
+    "name": "entries/pages/_page.svelte",
+    "src": "src/routes/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index.js",
+      "_ImageCarousel.js",
+      "_attributes.js",
+      "_escaping.js",
+      "_html.js",
+      "_AgendaEvent.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page.DIYNsTdf.css"
+    ]
+  },
+  "src/routes/[slug]/+page.server.ts": {
+    "file": "entries/pages/_slug_/_page.server.ts.js",
+    "name": "entries/pages/_slug_/_page.server.ts",
+    "src": "src/routes/[slug]/+page.server.ts",
+    "isEntry": true
+  },
+  "src/routes/[slug]/+page.svelte": {
+    "file": "entries/pages/_slug_/_page.svelte.js",
+    "name": "entries/pages/_slug_/_page.svelte",
+    "src": "src/routes/[slug]/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index.js",
+      "_Container.js",
+      "_escaping.js",
+      "_html.js"
+    ]
+  },
+  "src/routes/agenda/+page.server.ts": {
+    "file": "entries/pages/agenda/_page.server.ts.js",
+    "name": "entries/pages/agenda/_page.server.ts",
+    "src": "src/routes/agenda/+page.server.ts",
+    "isEntry": true,
+    "dynamicImports": [
+      "src/content/events/2025-08-23-pura-verdura-ackerfest-2025.json",
+      "src/content/events/2025-10-11-herbstmarkt-im-botanischen-garten.json",
+      "src/content/events/2025-11-02-neue-kalender-poster-postkarten.json",
+      "src/content/events/2025-11-08-martini-markt.json"
+    ]
+  },
+  "src/routes/agenda/+page.svelte": {
+    "file": "entries/pages/agenda/_page.svelte.js",
+    "name": "entries/pages/agenda/_page.svelte",
+    "src": "src/routes/agenda/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index.js",
+      "_AgendaEvent.js",
+      "_Container.js",
+      "_escaping.js"
+    ]
+  },
+  "src/routes/netzwerk/+page.svelte": {
+    "file": "entries/pages/netzwerk/_page.svelte.js",
+    "name": "entries/pages/netzwerk/_page.svelte",
+    "src": "src/routes/netzwerk/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index.js",
+      "_Container.js"
+    ]
+  },
+  "src/routes/site-not-found/+page.svelte": {
+    "file": "entries/pages/site-not-found/_page.svelte.js",
+    "name": "entries/pages/site-not-found/_page.svelte",
+    "src": "src/routes/site-not-found/+page.svelte",
+    "isEntry": true
+  },
+  "src/routes/sozial/+page.svelte": {
+    "file": "entries/pages/sozial/_page.svelte.js",
+    "name": "entries/pages/sozial/_page.svelte",
+    "src": "src/routes/sozial/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index.js",
+      "_Container.js"
+    ]
+  },
+  "src/routes/warum-das-eine-gute-sache-ist/+page.svelte": {
+    "file": "entries/pages/warum-das-eine-gute-sache-ist/_page.svelte.js",
+    "name": "entries/pages/warum-das-eine-gute-sache-ist/_page.svelte",
+    "src": "src/routes/warum-das-eine-gute-sache-ist/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index.js",
+      "_PageTeasers.js",
+      "_Container.js"
+    ]
+  },
+  "src/routes/was-wir-tun/+page.svelte": {
+    "file": "entries/pages/was-wir-tun/_page.svelte.js",
+    "name": "entries/pages/was-wir-tun/_page.svelte",
+    "src": "src/routes/was-wir-tun/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index.js",
+      "_PageTeasers.js",
+      "_Container.js",
+      "_ImageCarousel.js"
+    ]
+  },
+  "src/routes/wer-dahinter-steht/+page.svelte": {
+    "file": "entries/pages/wer-dahinter-steht/_page.svelte.js",
+    "name": "entries/pages/wer-dahinter-steht/_page.svelte",
+    "src": "src/routes/wer-dahinter-steht/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index.js",
+      "_PageTeasers.js",
+      "_Container.js",
+      "_ImageCarousel.js",
+      "_attributes.js",
+      "_escaping.js"
+    ]
+  },
+  "src/routes/wie-du-mitmachen-kannst/+page.svelte": {
+    "file": "entries/pages/wie-du-mitmachen-kannst/_page.svelte.js",
+    "name": "entries/pages/wie-du-mitmachen-kannst/_page.svelte",
+    "src": "src/routes/wie-du-mitmachen-kannst/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index.js",
+      "_PageTeasers.js",
+      "_Container.js"
+    ]
+  },
+  "src/routes/wieviel-es-kostet/+page.svelte": {
+    "file": "entries/pages/wieviel-es-kostet/_page.svelte.js",
+    "name": "entries/pages/wieviel-es-kostet/_page.svelte",
+    "src": "src/routes/wieviel-es-kostet/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index.js",
+      "_PageTeasers.js",
+      "_Container.js"
+    ]
+  },
+  "src/routes/wo-wir-zu-hause-sind/+page.svelte": {
+    "file": "entries/pages/wo-wir-zu-hause-sind/_page.svelte.js",
+    "name": "entries/pages/wo-wir-zu-hause-sind/_page.svelte",
+    "src": "src/routes/wo-wir-zu-hause-sind/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index.js",
+      "_PageTeasers.js",
+      "_Container.js"
+    ]
+  }
+}
