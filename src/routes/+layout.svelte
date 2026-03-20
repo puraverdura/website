@@ -1,11 +1,18 @@
 <script lang="ts">
 	import Header from "$lib/components/Header.svelte";
 	import NavigationMenu from "$lib/components/NavigationMenu.svelte";
+	import { page } from "$app/state";
 	import { onMount } from "svelte";
 	import "../app.css";
+	import Container from "$lib/components/Container.svelte";
 	let { children } = $props();
 
 	let menuOpen = $state(false);
+
+	const showNewsletter = $derived.by(() => {
+		const path = page.url.pathname.replace(/\/$/, "") || "/";
+		return path !== "/impressum" && path !== "/datenschutz";
+	});
 
 	onMount(() => {
 		console.log("layout mounted");
@@ -28,6 +35,37 @@
 	<!-- Page Content -->
 	<main class="grow-1 mt-[36px] mx-[36px] lg:mx-[72px] xl:mx-[108px]">
 		{@render children?.()}
+
+		{#if showNewsletter}
+			<Container>
+				<div class="newsletter-container">
+					<h2>Newsletter</h2>
+					<p class="">
+						Abonniere unseren Newsletter und erfahre erntefrische
+						Neuigkeiten – direkt vom Acker
+					</p>
+					<script
+						async
+						src="https://eocampaign1.com/form/9c259302-247d-11f1-bafe-39cfecd4c004.js"
+						data-form="9c259302-247d-11f1-bafe-39cfecd4c004"
+					></script>
+
+					<!-- override email octopus styles -->
+					<style>
+						.newsletter-container div {
+							padding: 0 !important;
+							margin: 0 !important;
+							max-width: 100% !important;
+
+						}
+
+						.newsletter-container .inline-container {
+							max-width: 100% !important;
+						}
+					</style>
+				</div>
+			</Container>
+		{/if}
 	</main>
 
 	<!-- Footer -->
@@ -83,3 +121,15 @@
 		menuOpen = !menuOpen;
 	}}
 />
+
+<style>
+	.newsletter-container {
+		margin-top: 52px;
+	}
+
+	@media (min-width: 768px) {
+		.newsletter-container {
+			margin-top: 70px;
+		}
+	}
+</style>
