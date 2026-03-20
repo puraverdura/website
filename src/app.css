@@ -94,6 +94,10 @@ html {
 	margin-bottom: 15px;
 }
 
+.page-content .block {
+	padding-bottom: 15px;
+}
+
 .page-content h1,
 .page-content h2,
 .page-content h3 {
@@ -123,6 +127,10 @@ html {
 	.page-content img,
 	.page-content ul {
 		margin-bottom: 20px;
+	}
+
+	.page-content .block {
+		padding-bottom: 20px;
 	}
 
 	.page-content h1,
