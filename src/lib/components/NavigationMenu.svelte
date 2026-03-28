@@ -44,19 +44,20 @@
 
 <div
 	class="{className} top-0 left-0 bottom-0 right-0 z-99 bg-background-100 overflow-y-auto overscroll-y-contain"
+	style="scrollbar-width: none;"
 >
-	<Header class="z-100" menuOpen={true} {toggleMenu} />
+	<Header class="z-100 sticky top-0" menuOpen={true} {toggleMenu} />
 	<div class="z-99 p-[40px] md:p-[80px]">
 		<ul>
 			{#each menuItems as item, index}
 				<li
-					class="h1 flex justify-center text-center border-b-[1px] border-b-primary-100 font-bold text-[32px] text-primary-100 "
+					class="h1 flex justify-center text-center border-b-[1px] border-b-primary-100 font-bold text-[32px] text-primary-100 !py-[6px]"
 				>
 					<button
 						class="cursor-pointer hover:text-primary-120"
 						tabindex={index+1}
 						onclick={() => clickLink(item.href)}>
-						{item.name} »</button
+						{item.name}&nbsp;»</button
 					>
 				</li>
 			{/each}

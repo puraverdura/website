@@ -6,9 +6,10 @@
 
 	interface Props {
 		images: Image[];
+		class?: string;
 	}
 
-	let { images }: Props = $props();
+	let { images, class: className }: Props = $props();
 
 	let viewportEl: HTMLDivElement | undefined = $state();
 	let currentIndex = $state(0);
@@ -107,7 +108,7 @@
 	}
 </script>
 
-<div class="relative">
+<div class={`carousel-container relative ${className ?? ""}`}>
 	{#if images.length > 0}
 		<div
 			class="absolute top-[20px] left-[20px] z-999 h-[24px] bg-text-100 px-[8px] text-background-100"

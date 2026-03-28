@@ -11,7 +11,7 @@
 
 	const showNewsletter = $derived.by(() => {
 		const path = page.url.pathname.replace(/\/$/, "") || "/";
-		return path !== "/impressum" && path !== "/datenschutz";
+		return path !== "/impressum" && path !== "/datenschutz" && path !== "/netzwerk";
 	});
 
 	onMount(() => {

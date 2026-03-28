@@ -12,11 +12,11 @@
 <div>
 	<h2>Auch interessant</h2>
 	<div
-		class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-[20px] mt-[20px]"
+		class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-[20px] mt-[5px] md:mt-[7px]"
 	>
 		{#each pages as page}
 			<a
-				class="bg-primary-70 !text-white !font-heading !font-normal rounded-[4px] text-center !p-[5px] grow-on-hover hover:bg-primary-100 really-break-words h-[64px] !mb-0 content-center"
+				class="bg-primary-70 !text-white !font-heading !font-normal rounded-[4px] text-center !p-[5px] grow-on-hover hover:bg-primary-100 really-break-words h-[64px] !mb-0 content-center !leading-[21px]"
 				href="{page.link}">{page.title}</a
 			>
 		{/each}

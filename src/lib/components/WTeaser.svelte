@@ -13,9 +13,9 @@
 <div>
 	<a class="!m-0 !p-0" href={link}>
 		<img src={imageSrc} alt={imageAlt} />
-		<h2 class="mt-[20px] mb-[3px]">{@html title}</h2>
+		<h2 class="mt-[20px] mb-[3px] leading-[30px]">{@html title}</h2>
 	</a>
-	<p>
+	<p class="pt-[5px]">
 		{text}
 	</p>
 	<a class="mt-[6px] md:mt-[12px]" href={link}>mehr erfahren »</a>
