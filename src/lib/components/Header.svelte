@@ -14,7 +14,13 @@
 <header
 	class={`${className} border-b-primary-100 border-b-[12px] md:border-b-[16px] flex sm:gap-x-[71px] md:gap-x-[142px] justify-between md:justify-center items-end pb-[19px] pt-[19px] shadow-lg shadow-gray-500 bg-white`}
 >
-	<button onclick={toggleMenu} class="mx-[20px] md:mx-0">
+	<button
+		onclick={toggleMenu}
+		class="mx-[20px] md:mx-0"
+		aria-label={menuOpen ? 'Menü schliessen' : 'Menü öffnen'}
+		aria-expanded={menuOpen}
+		aria-controls="navigation-menu"
+	>
 		{#if !menuOpen}
 			<Menu class="h-[27px] stroke-primary-100 cursor-pointer hover:stroke-primary-120" />
 		{:else}
@@ -36,6 +42,7 @@
 		<a
 			href="https://www.instagram.com/pura__verdura/"
 			target="_blank"
+			rel="noopener noreferrer"
 			class="w-[28px]"
 		>
 			<img src="/Insta_Icon_Green.png" alt="Instagram Icon" class="h-[28px]" />
@@ -43,6 +50,7 @@
 		<a
 			href="https://www.facebook.com/puraverdura.ch"
 			target="_blank"
+			rel="noopener noreferrer"
 			class="w-[28px]"
 		>
 			<img

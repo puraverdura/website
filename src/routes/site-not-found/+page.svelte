@@ -2,6 +2,10 @@
 	import PageTeasers from "$lib/components/PageTeasers.svelte";
 </script>
 
+<svelte:head>
+	<title>Seite nicht gefunden - Pura Verdura</title>
+</svelte:head>
+
 <div class="container">
 	<div
 		class="text-center flex flex-col justify-center gap-y-[6px] md:gap-y-[12px]"

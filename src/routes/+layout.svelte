@@ -20,21 +20,23 @@
 	});
 </script>
 
+<a href="#main-content" class="sr-only focus:not-sr-only focus:absolute focus:z-[200] focus:top-2 focus:left-2 focus:bg-white focus:px-4 focus:py-2 focus:text-primary-100 focus:font-bold focus:rounded focus:shadow-lg">
+	Zum Inhalt springen
+</a>
+
 <div
 	class="flex flex-col min-h-screen {menuOpen
 		? 'hidden'
 		: ''}"
 >
-	<!-- Header -->
 	<Header
-		menuOpen={false}
+		{menuOpen}
 		toggleMenu={() => {
 			menuOpen = !menuOpen;
 		}}
 	/>
 
-	<!-- Page Content -->
-	<main class="grow-1 mt-[36px] mx-[36px] lg:mx-[72px] xl:mx-[108px]">
+	<main id="main-content" class="grow-1 mt-[36px] mx-[36px] lg:mx-[72px] xl:mx-[108px]">
 		{@render children?.()}
 
 		{#if showNewsletter}
@@ -71,7 +73,7 @@
 
 	<!-- Footer -->
 	<footer class=" mt-[55px] md:mt-[110px]">
-		<img src="/Footer_illu.png" alt="logo" class="w-[100vw] min-h-[50px] object-cover" />
+		<img src="/Footer_illu.png" alt="" aria-hidden="true" class="w-[100vw] min-h-[50px] object-cover" />
 		<div
 			class="bg-footer-100 flex flex-wrap justify-between md:justify-center pt-11 pb-16 px-[36px] md:px-0 gap-x-[40px] md:gap-x-24 gap-y-[20px]"
 		>
@@ -81,20 +83,20 @@
 					Pura Verdura <br />
 					Postfach 156  <br />
 					8032 Zürich <br />
-					info@puraverdura.ch <br />
+					<a href="mailto:info@puraverdura.ch" class="!font-normal !text-text-100 !text-[16px] !font-heading">info@puraverdura.ch</a> <br />
 				</p>
 			</div>
 			<div>
 				<p class="!text-[16px] mb-[3px] !font-heading">Folge uns auf Social Media</p>
 				<div class="flex gap-x-[13px] !text-[16px]">
-					<a href="https://www.instagram.com/pura__verdura/" target="_blank">
+					<a href="https://www.instagram.com/pura__verdura/" target="_blank" rel="noopener noreferrer">
 						<img
 							src="/Insta_Icon_Grey.png"
 							alt="Instagram"
 							class="h-[28px]"
 						/>
 					</a>
-					<a href="https://www.facebook.com/puraverdura.ch" target="_blank">
+					<a href="https://www.facebook.com/puraverdura.ch" target="_blank" rel="noopener noreferrer">
 						<img
 							src="/Facebook_Icon_Grey.png"
 							alt="Facebook"

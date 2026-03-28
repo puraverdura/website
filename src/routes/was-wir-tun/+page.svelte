@@ -27,7 +27,7 @@
 				width="450"
 				height="450"
 				src="https://www.youtube.com/embed/3VsnbtAiMic"
-				frameborder="0"
+				class="border-0"
 				allowfullscreen
 			></iframe>
 		</div>

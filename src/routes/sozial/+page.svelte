@@ -26,10 +26,10 @@
 		<p>Mit Hilfe von Spendengeldern ermöglichen wir vergünstigte Gemüseabos für Menschen mit knappem Budget. Diese Abos werden in Zusammenarbeit mit <strong>Caritas Zürich</strong> über die <strong>KulturLegi</strong> bereitgestellt.</p>
 		<p>Unsere Vision ist es:</p>
 		<ul>
-			<li>die <stong>Ernährungssituation</stong> der Begünstigten zu verbessern</li>
-			<li>ihre <stong>soziale Integration</stong> zu fördern</li>
-			<li>ihre <stong>mentale Gesundheit </stong> zu stärken und</li>
-			<li>Wissen über <stong>gesunde Ernährung</stong> zu vermitteln.</li>
+			<li>die <strong>Ernährungssituation</strong> der Begünstigten zu verbessern</li>
+			<li>ihre <strong>soziale Integration</strong> zu fördern</li>
+			<li>ihre <strong>mentale Gesundheit </strong> zu stärken und</li>
+			<li>Wissen über <strong>gesunde Ernährung</strong> zu vermitteln.</li>
 		</ul>
 	</div>
 	<div class="page-content-row">

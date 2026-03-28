@@ -2,6 +2,8 @@
 	class={$$restProps.class}
 	enable-background="new 0 0 26 26"
 	viewBox="0 0 26 26"
+	aria-hidden="true"
+	focusable="false"
 	><g
 		><polygon
 			fill="currentColor"
