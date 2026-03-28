@@ -27,7 +27,7 @@
 	<a href="/"
 		><img
 			src="/Pura_Verdura_Logo_Kopf.svg"
-			alt="logo"
+			alt="Pura Verdura Logo"
 			class="w-[130px] md:w-[312px]"
 		/></a
 	>
@@ -38,7 +38,7 @@
 			target="_blank"
 			class="w-[28px]"
 		>
-			<img src="/Insta_Icon_Green.png" alt="Instagram" class="h-[28px]" />
+			<img src="/Insta_Icon_Green.png" alt="Instagram Icon" class="h-[28px]" />
 		</a>
 		<a
 			href="https://www.facebook.com/puraverdura.ch"
@@ -47,7 +47,7 @@
 		>
 			<img
 				src="/Facebook_Icon_Green.png"
-				alt="Facebook"
+				alt="Facebook Icon"
 				class="h-[28px]"
 			/>
 		</a>

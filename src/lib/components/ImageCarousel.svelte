@@ -132,7 +132,7 @@
 			<img
 				class="w-[35px]"
 				src="/carousel_prev.svg"
-				alt=""
+				alt="Vorheriges Bild"
 				draggable="false"
 			/>
 		</button>
@@ -183,7 +183,7 @@
 			<img
 				class="w-[35px]"
 				src="/carousel_next.svg"
-				alt=""
+				alt="Nächstes Bild"
 				draggable="false"
 			/>
 		</button>

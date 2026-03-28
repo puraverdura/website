@@ -68,14 +68,14 @@
 			<a href="https://www.instagram.com/pura__verdura/">
 				<img
 					src="/Insta_Icon_Grey.png"
-					alt="Instagram"
+					alt="Instagram Icon"
 					class="h-[40px]"
 				/>
 			</a>
 			<a href="https://www.facebook.com/puraverdura.ch/">
 				<img
 					src="/Facebook_Icon_Grey.png"
-					alt="Facebook"
+					alt="Facebook Icon"
 					class="h-[40px]"
 				/>
 			</a>

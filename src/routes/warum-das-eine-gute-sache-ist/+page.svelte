@@ -28,7 +28,7 @@
 			nachhaltige Landwirtschaft bei, was positive soziale und ökologische
 			Auswirkungen hat.
 		</p>
-		<img src="/content/image_1.jpg" alt="Alt text" />
+		<img src="/content/image_1.jpg" alt="Tomaten in Folientunnel" />
 		<p>
 			Auf der Suche nach einem Bio-Gemüseabo in der Stadt Zürich? Dann
 			bist du bei Pura Verdura genau richtig: Bei uns gibts wöchentlich
