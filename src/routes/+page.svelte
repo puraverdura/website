@@ -19,7 +19,7 @@
 
 <div>
 	<div
-		class="scroller flex flex-row-reverse border-b-primary-100 border-b-[18px] md:border-b-[25px] h-[200px] sm:h-[300px] xl:h-[400px]"
+		class="scroller flex flex-row-reverse border-b-primary-100 border-b-[12px] md:border-b-[17px] h-[250px] sm:h-[300px] xl:h-[400px]"
 	>
 		<a
 			href="https://login.puraverdura.ch/my/signup/"
@@ -32,7 +32,7 @@
 			/>
 		</a>
 	</div>
-	<div class="bg-primary-100 flex justify-center border-b-[18px] md:border-b-[25px] border-b-primary-100 px-[36px] group">
+	<div class="bg-primary-100 flex justify-center border-b-[12px] md:border-b-[17px] border-b-primary-100 px-[36px] group">
 		<a class="banner-text hover:!text-primary-15" href="https://login.puraverdura.ch/my/signup/">Freie Gemüseabos – jetzt zugreifen!</a>
 	</div>
 	<div class="container">
@@ -94,7 +94,7 @@
 		</div>
 		<div>
 			<h2>So sieht das aus</h2>
-			<ImageCarousel
+			<ImageCarousel class="mt-[5px] md:mt-[7px]"
 				images={[
 					{
 						src: "/content/Foto_Ruebli.jpg",
@@ -154,7 +154,7 @@
 					<AgendaEvent {event} isFutureEvent={true} />
 				{/each}
 				<div class="flex flex-col items-end mt-[14px] sm:mt-[17px]">
-					<a class="rounded-[4px] bg-primary-15 !px-[5px]" href="/agenda/">alle Termine »</a>
+					<a class="rounded-[4px] bg-primary-15 !px-[5px] !font-heading" href="/agenda/">alle Termine »</a>
 				</div>
 			</div>
 		{/if}

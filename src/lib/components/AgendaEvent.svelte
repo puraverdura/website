@@ -11,11 +11,11 @@
 	const { title, description, formattedDate, link } = event;
 </script>
 
-<div class="border-b-[1px] py-[14px] sm:py-[17px] border-text-50 first:pt-0">
+<div class="border-b-[1px] pt-[22px] pb-[17px] sm:py-[17px] border-text-50 first:pt-0">
 	{#if isFutureEvent}
 		<h3 class="flex gap-1 flex-col sm:flex-row items-start">
 			<span
-				class="bg-primary-100 text-white inline-block w-[160px] text-center rounded-md mr-1"
+				class="bg-primary-100 text-white inline-block w-[160px] text-center rounded-md mr-1 -mt-[5px]"
 				>{formattedDate}</span
 			>
 			<span class="text-black font-bold">{title}</span>

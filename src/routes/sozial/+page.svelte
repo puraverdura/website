@@ -44,6 +44,6 @@
 	<div class="page-content-row">
 		<h2>Kontakt & Spenden</h2>
 		<p>Hast du Fragen zu unserem Projekt oder möchtest du uns unterstützen? Wir freuen uns, von dir zu hören!</p>
-		<p><strong>E-Mail:</strong> info@puraverdura.ch</p>
+		<p><strong>E-Mail:</strong> <a href="mailto:info@puraverdura.ch">info@puraverdura.ch</a></p>
 	</div>
 </Container>

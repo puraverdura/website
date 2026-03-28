@@ -32,17 +32,17 @@
 
 h1,
 .h1 {
-	@apply font-bold font-heading text-[28px] md:text-[32px] text-primary-100;
+	@apply font-bold font-heading text-[28px] md:text-[32px] text-primary-100 leading-[35px];
 }
 
 h2,
 .h2 {
-	@apply font-bold font-heading text-[24px] md:text-[27px] text-primary-100;
+	@apply font-bold font-heading text-[24px] md:text-[27px] text-primary-100 leading-[30px];
 }
 
 h3,
 .h3 {
-	@apply font-bold font-heading text-[18px] md:text-[20px] text-primary-100;
+	@apply font-bold font-heading text-[18px] md:text-[20px] text-primary-100 leading-[25px];
 }
 
 h4,
@@ -65,7 +65,7 @@ a {
 }
 
 .container {
-	@apply md:w-[700px] mx-auto mt-[36px] md:mt-[56px] flex justify-center flex-col gap-y-[36px] md:gap-y-[56px];
+	@apply md:w-[700px] mx-auto mt-[36px] md:mt-[56px] flex justify-center flex-col gap-y-[52px] md:gap-y-[70px];
 }
 
 .grow-on-hover {
@@ -84,7 +84,6 @@ html {
 /* --- Page Content --- */
 .page-content li::before {
 	content: "– ";
-	margin-left: 12px;
 }
 
 .page-content p,
@@ -102,6 +101,19 @@ html {
 .page-content h2,
 .page-content h3 {
 	margin-bottom: 3px;
+}
+
+.page-content h2 + img,
+.page-content h3 + img,
+.page-content h2 + .carousel-container {
+	display: block;
+	margin-top: 5px;
+}
+
+/* Markdown often wraps standalone images in <p> */
+.page-content h2 + p:has(> img:only-child),
+.page-content h3 + p:has(> img:only-child) {
+	margin-top: 5px;
 }
 
 .page-content .page-content-row {
@@ -139,8 +151,14 @@ html {
 		margin-bottom: 3px;
 	}
 
-	.page-content li {
-		margin-left: 10px;
+	.page-content h3 + img {
+		display: block;
+		margin-top: 7px;
+	}
+
+	/* Markdown often wraps standalone images in <p> */
+	.page-content h3 + p:has(> img:only-child) {
+		margin-top: 7px;
 	}
 
 	.page-content .page-content-row {
@@ -156,7 +174,7 @@ html {
 	position: relative;
 	overflow: hidden;
 	height: 0;
-	padding-bottom: 56.25%; /* creates a 16:9 aspect ratio */
+	padding-bottom: 100%; /* 1:1 aspect ratio */
 }
 
 .page-content .video-container iframe,

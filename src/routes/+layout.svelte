@@ -1,5 +1,6 @@
 <script lang="ts">
 	import Header from "$lib/components/Header.svelte";
+	import BackToTop from "$lib/icons/BackToTop.svelte";
 	import NavigationMenu from "$lib/components/NavigationMenu.svelte";
 	import { page } from "$app/state";
 	import { onMount } from "svelte";
@@ -11,7 +12,7 @@
 
 	const showNewsletter = $derived.by(() => {
 		const path = page.url.pathname.replace(/\/$/, "") || "/";
-		return path !== "/impressum" && path !== "/datenschutz";
+		return path !== "/impressum" && path !== "/datenschutz" && path !== "/netzwerk";
 	});
 
 	onMount(() => {
@@ -113,6 +114,8 @@
 		</div>
 	</footer>
 </div>
+
+<BackToTop />
 
 <NavigationMenu
 	class={menuOpen ? "fixed " : "hidden"}
