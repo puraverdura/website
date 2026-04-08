@@ -75,6 +75,13 @@
 			description:
 				"ist von der Moderne entzaubert und arbeitet unter anderem bei Pura Verdura an einer tauglicheren Alternative. Als Psychologe unterstützt er Menschen, die sich auf ähnliche Wege begeben möchten.",
 		},
+		{
+			name: "Emilia",
+			role: "Mitgliederverwaltung & Stiftungsanträge",
+			image: "Emilia.png",
+			description:
+				"Emilia studiert Umweltnaturwissenschaften und interessiert sich für alles, was mit Essen zu tun hat - vom Anbau über die Verarbeitung bis hin zum Konsum. Sie möchte ihren Teil zu einer nachhaltigen Lebensmittelproduktion und einem bewussten Konsum beitragen. Am wohlsten fühlt sie sich, wenn sie mit den Händen arbeitet: in der Küche, im Garten oder an der Töpferscheibe.",
+		},
 	];
 </script>
 
