@@ -24,7 +24,7 @@
 			frisches Bio-Gemüse, das vom Acker aus deiner Nähe stammt. Du
 			möchtest Teil von Pura Verdura werden? Mitmachen ist ganz einfach!
 		</p>
-		<img src="/content/Feld.jpg" alt="Alt text" />
+		<img src="/content/Feld.jpg" alt="Mitglieder auf dem Feld am Karotten ernten" />
 	</div>
 	<div class="page-content-row">
 		<h2>Genossenschafter:in werden</h2>

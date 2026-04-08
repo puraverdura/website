@@ -134,12 +134,8 @@
 						class="aspect-square object-cover md:w-56 !m-0 border-primary-100 border-2 border-solid"
 					/>
 					<div>
-						<p class="!m-0">
-							<span class="h4"
-								>{bgMember.name} ({bgMember.role})</span
-							>
-							{bgMember.description}
-						</p>
+						<h4 class="!m-0 inline-block">{bgMember.name} ({bgMember.role})</h4>
+						<p class="inline">{bgMember.description}</p>
 					</div>
 				</div>
 			{/each}

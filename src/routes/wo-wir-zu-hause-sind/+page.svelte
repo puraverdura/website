@@ -26,7 +26,7 @@
 			Gelände ein Treibhaus sowie unser Büro. Wo alles genau ist, siehst
 			Du auf der folgenden Karte.
 		</p>
-		<img src="/content/Lageplan_Pura_Verdura.png" alt="Alt text" />
+		<img src="/content/Lageplan_Pura_Verdura.png" alt="Lageplan" />
 	</div>
 	<div class="page-content-row">
 		<h2>Unsere Depots für die Gemüselieferung</h2>
@@ -41,7 +41,7 @@
 			<h3>Auf einen Blick</h3>
 			<img
 				src="/content/Alle_Depotstandorte_Pura_Verdura.png"
-				alt="Alt text"
+				alt="Alle Depotstandorte"
 			/>
 		</div>
 
@@ -49,7 +49,7 @@
 			<h3>Standorte Kreis 1/7/8</h3>
 			<img
 				src="/content/Depotstandorte_Kreis_1_7_8_Pura_Verdura.png"
-				alt="Alt text"
+				alt="Depotstandorte Kreis 1, 7 und 8"
 			/>
 			<ul>
 				<li><strong>Predigerkirche beim Zähringerplatz</strong></li>
@@ -73,7 +73,7 @@
 			<h3>Standort Kreis 6</h3>
 			<img
 				src="/content/Depotstandort_Kreis_6_Pura_Verdura.png"
-				alt="Alt text"
+				alt="Depotstandort Kreis 6"
 			/>
 			<ul>
 				<li><strong>Quartierhaus Kreis 6</strong></li>
@@ -84,7 +84,7 @@
 			<h3>Standort Zollikerberg</h3>
 			<img
 				src="/content/Depotstandort_Zollikerberg_Pura_Verdura.png"
-				alt="Alt text"
+				alt="Depotstandort Zollikerberg"
 			/>
 			<ul>
 				<li><strong>Chramsschopf Zollikerberg</strong></li>

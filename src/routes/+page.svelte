@@ -179,4 +179,10 @@
 			background-position: +10000% 0;
 		}
 	}
+
+	@media (prefers-reduced-motion: reduce) {
+		.scroller {
+			animation: none;
+		}
+	}
 </style>

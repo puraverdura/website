@@ -1,6 +1,7 @@
 <script lang="ts">
-	import { goto } from "$app/navigation";
 	import Header from "./Header.svelte";
+	import { tick } from "svelte";
+	import { page } from "$app/state";
 
 	interface Props {
 		class: string;
@@ -8,6 +9,10 @@
 	}
 
 	let { class: className, toggleMenu }: Props = $props();
+
+	let dialogEl: HTMLDivElement | undefined = $state();
+
+	const isOpen = $derived(!className.includes("hidden"));
 
 	const menuItems = [
 		{ name: "Home", href: "/" },
@@ -29,50 +34,114 @@
 		{ name: "Login", href: "https://login.puraverdura.ch/" },
 	];
 
-	const clickLink = async (href: string) => {
-		console.log("clickLink", href);
-		toggleMenu();
+	const isExternal = (href: string) => href.startsWith("http");
 
-		if(href.startsWith("http")) {
-			window.location = href;
-			return;
-		} else {
-			await goto(href);
-		}
+	const isCurrentPage = (href: string) => {
+		const current = page.url.pathname.replace(/\/$/, "") || "/";
+		const target = href.replace(/\/$/, "") || "/";
+		return current === target;
 	};
+
+	function getFocusableElements(): HTMLElement[] {
+		if (!dialogEl) return [];
+		return Array.from(
+			dialogEl.querySelectorAll<HTMLElement>(
+				'a[href], button, [tabindex]:not([tabindex="-1"])'
+			)
+		);
+	}
+
+	function handleKeydown(event: KeyboardEvent) {
+		if (!isOpen) return;
+
+		if (event.key === "Escape") {
+			toggleMenu();
+			return;
+		}
+
+		if (event.key === "Tab") {
+			console.log("Tab key pressed");
+			const focusable = getFocusableElements();
+			if (focusable.length === 0) return;
+
+			const first = focusable[0];
+			const last = focusable[focusable.length - 1];
+
+			console.log(first, last);
+
+			if (event.shiftKey && document.activeElement === first) {
+				event.preventDefault();
+				last.focus();
+			} else if (!event.shiftKey && document.activeElement === last) {
+				event.preventDefault();
+				first.focus();
+			}
+		}
+	}
+
+	$effect(() => {
+		if (isOpen && dialogEl) {
+			tick().then(() => {
+				const firstButton = dialogEl?.querySelector<HTMLElement>("button");
+				firstButton?.focus();
+			});
+		}
+	});
 </script>
 
+<svelte:window onkeydown={handleKeydown} />
+
 <div
+	bind:this={dialogEl}
+	id="navigation-menu"
 	class="{className} top-0 left-0 bottom-0 right-0 z-99 bg-background-100 overflow-y-auto overscroll-y-contain"
 	style="scrollbar-width: none;"
+	role="dialog"
+	aria-modal="true"
+	aria-label="Navigation"
 >
 	<Header class="z-100 sticky top-0" menuOpen={true} {toggleMenu} />
 	<div class="z-99 p-[40px] md:p-[80px]">
-		<ul>
-			{#each menuItems as item, index}
-				<li
-					class="h1 flex justify-center text-center border-b-[1px] border-b-primary-100 font-bold text-[32px] text-primary-100 !py-[6px]"
-				>
-					<button
-						class="cursor-pointer hover:text-primary-120"
-						tabindex={index+1}
-						onclick={() => clickLink(item.href)}>
-						{item.name}&nbsp;»</button
+		<nav aria-label="Hauptnavigation">
+			<ul>
+				{#each menuItems as item (item.href)}
+					<li
+						class="flex justify-center text-center border-b-[1px] border-b-primary-100 font-bold text-[32px] text-primary-100 !py-[6px]"
 					>
-				</li>
-			{/each}
-		</ul>
+					{#if isExternal(item.href)}
+						<a
+							href={item.href}
+							target="_blank"
+							rel="noopener noreferrer"
+							class="h1 cursor-pointer hover:text-primary-120"
+						>
+							{item.name}&nbsp;»
+						</a>
+					{:else}
+						<a
+							href={item.href}
+							onclick={toggleMenu}
+							class="h1 cursor-pointer hover:text-primary-120"
+							aria-current={isCurrentPage(item.href) ? "page" : undefined}
+						>
+							{item.name}&nbsp;»
+						</a>
+					{/if}
+					</li>
+				{/each}
+			</ul>
+		</nav>
 		<div
 			class="flex gap-x-[13px] w-[100%] justify-center border-b-[1px] border-b-primary-100 pb-[15px] pt-[40px]"
 		>
-			<a href="https://www.instagram.com/pura__verdura/">
+			<a href="https://www.instagram.com/pura__verdura/" target="_blank" rel="noopener noreferrer">
 				<img
 					src="/Insta_Icon_Grey.png"
 					alt="Instagram"
 					class="h-[40px]"
 				/>
 			</a>
-			<a href="https://www.facebook.com/puraverdura.ch/">
+			<a href="https://www.facebook.com/puraverdura.ch/" target="_blank" rel="noopener noreferrer">
 				<img
 					src="/Facebook_Icon_Grey.png"
 					alt="Facebook"
@@ -87,7 +156,7 @@
 					Pura Verdura <br />
 					Postfach 156<br />
 					8032 Zürich <br />
-					info@puraverdura.ch <br />
+					<a href="mailto:info@puraverdura.ch">info@puraverdura.ch</a> <br />
 				</p>
 			</div>
 		</div>
