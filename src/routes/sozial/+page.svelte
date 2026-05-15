@@ -46,4 +46,16 @@
 		<p>Hast du Fragen zu unserem Projekt oder möchtest du uns unterstützen? Wir freuen uns, von dir zu hören!</p>
 		<p><strong>E-Mail:</strong> <a href="mailto:info@puraverdura.ch">info@puraverdura.ch</a></p>
 	</div>
+	<div class="page-content-row">
+		<h2>Unterstüzung</h2>
+		<p>Diese Organisationen und Stiftungen ermöglichen uns das Engagement als Pura Verdura Sozial.</p>
+		<div class="flex felx-col gap-x-[20px]">
+			<a href="https://hans-a-bill-stiftung.ch/" class="block max-w-[150px]">
+				<img src="/sponsoren/hans_a_bill_stiftung.svg" alt="Hans A. Bill Stiftung" width="600" height="350" />
+			</a>
+			<a href="https://www.sv-stiftung.ch/" class="block max-w-[150px]">
+				<img src="/sponsoren/sv_stiftung.png" alt="SV Stiftung" />
+			</a>
+		</div>
+	</div>
 </Container>
