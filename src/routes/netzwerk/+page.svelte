@@ -42,7 +42,7 @@
 		</li>
 		<li><a href="http://sensengruppe.ch/" target="_blank" rel="noopener noreferrer">Sensengruppe »</a></li>
 		<li>
-			<a href="http://muehle-tiefenbrunnen.ch/" target="_blank" rel="noopener noreferrer">Mühle Tieffenbrunnen »</a>
+			<a href="http://muehle-tiefenbrunnen.ch/" target="_blank" rel="noopener noreferrer">Mühle Tiefenbrunnen »</a>
 		</li>
 	</ul>
 	<h3 class="!text-text-100">Netzwerke</h3>
