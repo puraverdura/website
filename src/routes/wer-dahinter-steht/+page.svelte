@@ -71,7 +71,7 @@
 		{
 			name: "Lino",
 			role: "HR",
-			image: "Lino.jpeg",
+			image: "Lino.png",
 			description:
 				"ist von der Moderne entzaubert und arbeitet unter anderem bei Pura Verdura an einer tauglicheren Alternative. Als Psychologe unterstützt er Menschen, die sich auf ähnliche Wege begeben möchten.",
 		},
