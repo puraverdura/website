@@ -1,0 +1,1 @@
+export { default as component } from "../../../../src/routes/warum-das-eine-gute-sache-ist/+page.svelte";
