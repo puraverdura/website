@@ -1,0 +1,1 @@
+export { default as component } from "../../../../src/routes/wo-wir-zu-hause-sind/+page.svelte";
