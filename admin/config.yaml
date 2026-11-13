@@ -1,0 +1,34 @@
+backend:
+  name: github
+  repo: puraverdura/website # Path to your GitHub repository
+  branch: main
+  base_url: https://puraverdura-sveltia-cms-auth.it-d9a.workers.dev/
+
+media_folder: src/images # folder where user uploaded files should go
+public_folder: /images
+
+search: false
+
+slug:
+    encoding: ascii
+    clean_accents: true
+    sanitize_replacement: "-"
+
+collections:
+    -
+        name: events # used in routes, e.g. /admin/collections/blog
+        identifier_field: title
+        label: Events # used in the ui
+        label_singular: Event
+        format: json
+        folder: src/content/events # path to the folder where the documents are stored
+        create: true # allow users to create new documents in this collection
+        slug: "{{date}}-{{slug}}" # filename template, e.g. YYYY-MM-DD-title.md
+        extension: json
+        summary: "{{title}}"
+        fields: # fields for each document in front matter
+            - { label: Title, name: title, widget: string, pattern: ['^.{0,40}$', "Der Titel darf nicht mehr als 40 Zeichen haben"] }
+            - { label: Beschreibung, name: description, widget: text }
+            - { label: "Datum", name: "date", widget: "datetime", date_format: "YYYY-MM-DD", time_format: false }
+            - { label: "Link", name: "link", widget: string, pattern: ['^(?:https?:\/\/.*)?$', "Der Link muss zwingend mit https:// oder mit http:// beginnen"], required: false }
+            - { label: "Auf der Seite verbergen", name: "hideOnSite", widget: "boolean", hint: 'Wenn angewält: Event wird nicht auf der Seite angezeigt. \n Für Benutzer:innen mit technischem Knowhow kann der Eintrag aber dennoch sichtbar sein.' }

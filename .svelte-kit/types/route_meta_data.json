@@ -1,0 +1,42 @@
+{
+	"/": [
+		"src/routes/+page.server.ts",
+		"src/routes/+layout.ts",
+		"src/routes/+layout.ts"
+	],
+	"/agenda": [
+		"src/routes/agenda/+page.server.ts",
+		"src/routes/+layout.ts"
+	],
+	"/netzwerk": [
+		"src/routes/+layout.ts"
+	],
+	"/site-not-found": [
+		"src/routes/+layout.ts"
+	],
+	"/sozial": [
+		"src/routes/+layout.ts"
+	],
+	"/warum-das-eine-gute-sache-ist": [
+		"src/routes/+layout.ts"
+	],
+	"/was-wir-tun": [
+		"src/routes/+layout.ts"
+	],
+	"/wer-dahinter-steht": [
+		"src/routes/+layout.ts"
+	],
+	"/wie-du-mitmachen-kannst": [
+		"src/routes/+layout.ts"
+	],
+	"/wieviel-es-kostet": [
+		"src/routes/+layout.ts"
+	],
+	"/wo-wir-zu-hause-sind": [
+		"src/routes/+layout.ts"
+	],
+	"/[slug]": [
+		"src/routes/[slug]/+page.server.ts",
+		"src/routes/+layout.ts"
+	]
+}
