@@ -110,6 +110,12 @@
 	<div class="page-content-row">
 		<h2>Dokumente</h2>
 		<ul>
+		<li>
+				<a
+					href="/documents/PuraVerdura_Jahresbericht_2025_SCREEN.pdf"
+					>Jahresbericht 2025 »</a
+				>
+			</li>
 			<li>
 				<a
 					href="https://wordpress.puraverdura.ch/wp-content/uploads/PuraVerdura_Jahresbericht_2024_SCREEN.pdf"
